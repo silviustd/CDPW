@@ -1,0 +1,25 @@
+<div class="select-1">
+<h3>U.S. Customs and Border Protection Customs Declaration</h3>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="display: inline-block; width: auto;">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="KUS26L363QRMQ">
+	<input type="hidden" name="on0" value="">
+
+	<select name="os0">
+		<option value="Subscription">Subscription : $3.99 CAD - monthly</option>
+		<option value="Subscription">Subscription : $41.99 CAD - yearly</option>
+	</select>
+
+	<input type="hidden" name="currency_code" value="CAD">
+	<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+	<div class="clearfloat">&nbsp;</div>
+
+    <p class="note-3">
+		Our records indicate that you are not subscribed to this plan. Please <a href="mailto:office@columnasoft.com?subject=USCBP%20Plan">email us</A> if we are wrong.
+		<br/> To subscribe, please click the Subscribe button above.
+		</p>
+
+</div>

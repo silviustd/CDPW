@@ -1,0 +1,43 @@
+body {
+	background-color: #fff;
+	background-image: none;
+	height: 100%;
+}
+.bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7, .bg-8, .bg-news-releases, .bg-retention, .bg-customer-value, .bg-clients, .bg-white-papers, .bg-articles, .bg-executive-summary {
+	background: none;
+}
+.bg-1 {
+	background-image: none;
+}
+#header h1, #container, #footer, #header-container, #main-2, #main-3, #button-form, .disclaimer-1, .disclaimer-2, .disclaimer-3, .main-3, #form1 {
+	display: none;
+}
+#ie {
+	display: block;
+	width: 800px;
+	margin: 30px auto;
+	color: #545e66;
+	text-align: center;
+}
+#ie img {
+	margin: 10px 0px 30px 10px;
+}
+#ie p {
+	margin: 10px 0px 20px;
+	font-size: 18px;
+	line-height: 25px;
+}
+#ie ul li {
+	float: left;
+	display: inline;
+	width: 200px;
+	padding: 10px 0px;
+}
+#ie ul li a {
+	border-bottom: 1px solid #ccc;
+	font-size: 15px;
+	color: #545e66;
+}
+#ie ul li a:hover {
+	color: #c00;
+}

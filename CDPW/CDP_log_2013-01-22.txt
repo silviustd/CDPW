@@ -1,0 +1,186 @@
+[Header]2013-01-22 12:17:56,901 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-22 12:17:56,959 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-22 12:17:56,965 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:17:57,002 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:18:38,274 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-22 12:18:38,274 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-22 12:18:38,274 [5] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:18:38,274 [5] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:19:45,784 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-22 12:19:45,784 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-22 12:19:45,784 [5] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:19:45,785 [5] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:19:46,120 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Enter
+2013-01-22 12:19:46,124 [5] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Enter
+2013-01-22 12:20:08,929 [5] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Exit
+2013-01-22 12:20:08,931 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:20:08,932 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:20:08,932 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:20:08,932 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:20:08,932 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:20:08,932 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:20:08,932 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:20:08,932 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:20:08,932 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:20:08,933 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:20:08,933 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:20:08,933 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:20:08,933 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:20:08,933 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:20:08,938 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Exit
+2013-01-22 12:20:08,973 [4] INFO  CDPW.cdpselectpay [(null)] - cdpselectpay-Page_Load - Enter
+2013-01-22 12:20:08,974 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:20:08,974 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:20:32,110 [7] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Enter
+2013-01-22 12:20:32,112 [7] INFO  CDPW.DAL.FormUSA [(null)] - FormUSA-Form_Get - Enter
+2013-01-22 12:20:39,295 [7] INFO  CDPW.DAL.FormUSA [(null)] - FormUSA-Form_Get - Exit
+2013-01-22 12:20:39,297 [7] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-22 12:20:39,613 [7] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-22 12:20:39,614 [7] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-22 12:20:39,616 [7] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-22 12:20:39,617 [7] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Enter
+2013-01-22 12:20:40,327 [7] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Exit
+2013-01-22 12:20:40,327 [7] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-22 12:20:40,328 [7] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-22 12:20:40,328 [7] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-22 12:20:40,334 [7] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-22 12:20:40,334 [7] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-22 12:20:40,336 [7] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-22 12:20:40,337 [7] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Exit
+2013-01-22 12:20:40,337 [7] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:20:40,337 [7] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:20:40,337 [7] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Enter
+2013-01-22 12:20:40,338 [7] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Exit
+2013-01-22 12:22:00,120 [6] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Enter
+2013-01-22 12:22:00,120 [6] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Exit
+2013-01-22 12:22:00,120 [6] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:22:00,120 [6] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:22:00,120 [6] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Enter
+2013-01-22 12:22:00,120 [6] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Exit
+2013-01-22 12:22:00,122 [6] INFO  CDPW.DUSAForm [(null)] - DUSAForm-RaiseCallbackEvent - Enter
+2013-01-22 12:22:00,122 [6] INFO  CDPW.DUSAForm [(null)] - DUSAForm-RaiseCallbackEvent - Exit
+2013-01-22 12:22:04,527 [4] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Enter
+2013-01-22 12:22:04,528 [4] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Exit
+2013-01-22 12:22:04,528 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:22:04,528 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:22:04,528 [4] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Enter
+2013-01-22 12:22:04,528 [4] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Exit
+2013-01-22 12:22:04,528 [4] INFO  CDPW.DUSAForm [(null)] - DUSAForm-RaiseCallbackEvent - Enter
+2013-01-22 12:22:04,528 [4] INFO  CDPW.DUSAForm [(null)] - DUSAForm-RaiseCallbackEvent - Exit
+2013-01-22 12:22:13,738 [15] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Enter
+2013-01-22 12:22:13,740 [15] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Exit
+2013-01-22 12:22:13,740 [15] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:22:13,740 [15] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:22:13,740 [15] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Enter
+2013-01-22 12:22:13,740 [15] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Exit
+2013-01-22 12:22:13,740 [15] INFO  CDPW.DUSAForm [(null)] - DUSAForm-RaiseCallbackEvent - Enter
+2013-01-22 12:22:13,740 [15] INFO  CDPW.DUSAForm [(null)] - DUSAForm-RaiseCallbackEvent - Exit
+[Footer][Header]2013-01-22 12:41:33,003 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-22 12:41:33,041 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-22 12:41:33,044 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:41:33,044 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:42:29,103 [5] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Enter
+2013-01-22 12:42:29,103 [5] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Redirect to Login
+2013-01-22 12:42:29,244 [5] ERROR CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at CDPW.DUSAForm.Page_Load(Object sender, EventArgs e) in K:\Works\Projects\CDPW\CDPW\DUSAForm.aspx.cs:line 205
+2013-01-22 12:42:29,327 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-22 12:42:29,327 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-22 12:42:29,327 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:42:29,327 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:42:31,128 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-22 12:42:31,128 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-22 12:42:31,128 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:42:31,128 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:42:31,130 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Enter
+2013-01-22 12:42:31,195 [4] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Enter
+2013-01-22 12:43:13,853 [4] ERROR CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Error
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CDPW.DAL.Users.Add_NoUser() in K:\Works\Projects\CDPW\CDPW.DAL\Users.cs:line 234
+   at CDPW.cdplogin.btnNoSignUp_Click(Object sender, EventArgs e) in K:\Works\Projects\CDPW\CDPW\cdplogin.aspx.cs:line 201
+2013-01-22 12:43:13,879 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Exit
+[Footer][Header]2013-01-22 12:43:38,420 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-22 12:43:38,434 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-22 12:43:38,438 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:43:38,438 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:43:43,150 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-22 12:43:43,150 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-22 12:43:43,150 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:43:43,150 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:43:43,156 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Enter
+2013-01-22 12:43:43,199 [4] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Enter
+2013-01-22 12:43:43,544 [4] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Exit
+2013-01-22 12:43:43,546 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:43:43,546 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:43:43,546 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:43:43,546 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:43:43,547 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:43:43,547 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:43:43,547 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:43:43,547 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:43:43,547 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:43:43,547 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:43:43,547 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:43:43,547 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:43:43,547 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-22 12:43:43,547 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-22 12:43:43,548 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Exit
+2013-01-22 12:43:43,583 [11] INFO  CDPW.cdpselectpay [(null)] - cdpselectpay-Page_Load - Enter
+2013-01-22 12:43:43,584 [11] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:43:43,584 [11] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:43:47,371 [10] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Enter
+2013-01-22 12:43:47,388 [10] INFO  CDPW.DAL.FormUSA [(null)] - FormUSA-Form_Get - Enter
+2013-01-22 12:43:47,417 [10] INFO  CDPW.DAL.FormUSA [(null)] - FormUSA-Form_Get - Exit
+2013-01-22 12:43:47,418 [10] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-22 12:43:47,423 [10] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-22 12:43:47,424 [10] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-22 12:43:47,426 [10] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-22 12:43:47,427 [10] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Enter
+2013-01-22 12:43:47,436 [10] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Exit
+2013-01-22 12:43:47,436 [10] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-22 12:43:47,436 [10] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-22 12:43:47,436 [10] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-22 12:43:47,447 [10] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-22 12:43:47,447 [10] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-22 12:43:47,448 [10] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-22 12:43:47,449 [10] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Exit
+2013-01-22 12:43:47,449 [10] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:43:47,449 [10] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:43:47,450 [10] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Enter
+2013-01-22 12:43:47,450 [10] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Exit
+2013-01-22 12:43:50,979 [5] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Enter
+2013-01-22 12:43:50,980 [5] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Exit
+2013-01-22 12:43:50,980 [5] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:43:50,980 [5] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:43:50,980 [5] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Enter
+2013-01-22 12:43:50,980 [5] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Exit
+2013-01-22 12:43:50,981 [5] INFO  CDPW.DUSAForm [(null)] - DUSAForm-RaiseCallbackEvent - Enter
+2013-01-22 12:43:50,981 [5] INFO  CDPW.DUSAForm [(null)] - DUSAForm-RaiseCallbackEvent - Exit
+2013-01-22 12:43:55,123 [12] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Enter
+2013-01-22 12:43:55,123 [12] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Exit
+2013-01-22 12:43:55,124 [12] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-22 12:43:55,124 [12] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-22 12:43:55,124 [12] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Enter
+2013-01-22 12:43:55,124 [12] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_LoadComplete - Exit
+2013-01-22 12:43:55,124 [12] INFO  CDPW.DUSAForm [(null)] - DUSAForm-RaiseCallbackEvent - Enter
+2013-01-22 12:43:55,124 [12] INFO  CDPW.DUSAForm [(null)] - DUSAForm-RaiseCallbackEvent - Exit

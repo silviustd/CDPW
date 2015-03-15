@@ -1,0 +1,29 @@
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.BLL\bin\Debug\CDPW.BLL.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.BLL\bin\Debug\CDPW.BLL.pdb
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.BLL\obj\Debug\ResolveAssemblyReference.cache
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.BLL\obj\Debug\CDPW.BLL.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.BLL\obj\Debug\CDPW.BLL.pdb
+D:\Lucru\CDPW\CDPW.BLL\bin\Debug\CDPW.BLL.dll
+D:\Lucru\CDPW\CDPW.BLL\bin\Debug\CDPW.BLL.pdb
+D:\Lucru\CDPW\CDPW.BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Lucru\CDPW\CDPW.BLL\obj\Debug\CDPW.BLL.dll
+D:\Lucru\CDPW\CDPW.BLL\obj\Debug\CDPW.BLL.pdb
+G:\CDPW\CDPW.BLL\bin\Debug\CDPW.BLL.dll
+G:\CDPW\CDPW.BLL\bin\Debug\CDPW.BLL.pdb
+G:\CDPW\CDPW.BLL\obj\Debug\ResolveAssemblyReference.cache
+G:\CDPW\CDPW.BLL\obj\Debug\CDPW.BLL.dll
+G:\CDPW\CDPW.BLL\obj\Debug\CDPW.BLL.pdb
+K:\Works\Projects\CDPW - Copy (2)\CDPW.BLL\bin\Debug\CDPW.BLL.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW.BLL\bin\Debug\CDPW.BLL.pdb
+K:\Works\Projects\CDPW - Copy (2)\CDPW.BLL\bin\Debug\log4net.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW.BLL\bin\Debug\log4net.xml
+K:\Works\Projects\CDPW - Copy (2)\CDPW.BLL\obj\Debug\ResolveAssemblyReference.cache
+K:\Works\Projects\CDPW - Copy (2)\CDPW.BLL\obj\Debug\CDPW.BLL.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW.BLL\obj\Debug\CDPW.BLL.pdb
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.BLL\bin\Debug\CDPW.BLL.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.BLL\bin\Debug\CDPW.BLL.pdb
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.BLL\bin\Debug\log4net.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.BLL\bin\Debug\log4net.xml
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.BLL\obj\Debug\CDPW.BLL.csprojResolveAssemblyReference.cache
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.BLL\obj\Debug\CDPW.BLL.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.BLL\obj\Debug\CDPW.BLL.pdb

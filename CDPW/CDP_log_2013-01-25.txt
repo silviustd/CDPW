@@ -1,0 +1,15 @@
+[Header]2013-01-25 15:00:48,054 [30] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Enter
+2013-01-25 15:00:48,718 [30] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Redirect to Login
+2013-01-25 15:00:49,667 [30] ERROR CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at CDPW.DUSAForm.Page_Load(Object sender, EventArgs e) in K:\Works\Projects\CDPW\CDPW\DUSAForm.aspx.cs:line 205
+2013-01-25 15:00:50,730 [31] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-25 15:00:50,795 [31] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-25 15:00:50,837 [31] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-25 15:00:50,837 [31] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+[Footer]

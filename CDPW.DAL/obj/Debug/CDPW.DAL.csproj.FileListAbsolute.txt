@@ -1,0 +1,48 @@
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.DAL\bin\Debug\CDPW.DAL.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.DAL\bin\Debug\CDPW.DAL.pdb
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.DAL\bin\Debug\CDPW.BLL.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.DAL\bin\Debug\CDPW.BLL.pdb
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.DAL\obj\Debug\ResolveAssemblyReference.cache
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.DAL\obj\Debug\CDPW.DAL.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW.DAL\obj\Debug\CDPW.DAL.pdb
+D:\Lucru\CDPW\CDPW.DAL\bin\Debug\CDPW.DAL.dll
+D:\Lucru\CDPW\CDPW.DAL\bin\Debug\CDPW.DAL.pdb
+D:\Lucru\CDPW\CDPW.DAL\bin\Debug\CDPW.BLL.dll
+D:\Lucru\CDPW\CDPW.DAL\bin\Debug\CDPW.BLL.pdb
+D:\Lucru\CDPW\CDPW.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Lucru\CDPW\CDPW.DAL\obj\Debug\CDPW.DAL.dll
+D:\Lucru\CDPW\CDPW.DAL\obj\Debug\CDPW.DAL.pdb
+G:\CDPW\CDPW.DAL\bin\Debug\CDPW.DAL.dll
+G:\CDPW\CDPW.DAL\bin\Debug\CDPW.DAL.pdb
+G:\CDPW\CDPW.DAL\bin\Debug\CDPW.BLL.dll
+G:\CDPW\CDPW.DAL\bin\Debug\CDPW.BLL.pdb
+G:\CDPW\CDPW.DAL\obj\Debug\ResolveAssemblyReference.cache
+G:\CDPW\CDPW.DAL\obj\Debug\CDPW.DAL.dll
+G:\CDPW\CDPW.DAL\obj\Debug\CDPW.DAL.pdb
+K:\Works\Projects\CDPW - Copy (2)\CDPW.DAL\bin\Debug\CDPW.DAL.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW.DAL\bin\Debug\CDPW.DAL.pdb
+K:\Works\Projects\CDPW - Copy (2)\CDPW.DAL\bin\Debug\CDPW.BLL.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW.DAL\bin\Debug\log4net.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW.DAL\bin\Debug\CDPW.BLL.pdb
+K:\Works\Projects\CDPW - Copy (2)\CDPW.DAL\bin\Debug\log4net.xml
+K:\Works\Projects\CDPW - Copy (2)\CDPW.DAL\obj\Debug\ResolveAssemblyReference.cache
+K:\Works\Projects\CDPW - Copy (2)\CDPW.DAL\obj\Debug\CDPW.DAL.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW.DAL\obj\Debug\CDPW.DAL.pdb
+K:\Works\Projects\CDPW_29\CDPW.DAL\bin\Debug\CDPW.DAL.dll
+K:\Works\Projects\CDPW_29\CDPW.DAL\bin\Debug\CDPW.DAL.pdb
+K:\Works\Projects\CDPW_29\CDPW.DAL\bin\Debug\CDPW.BLL.dll
+K:\Works\Projects\CDPW_29\CDPW.DAL\bin\Debug\log4net.dll
+K:\Works\Projects\CDPW_29\CDPW.DAL\bin\Debug\CDPW.BLL.pdb
+K:\Works\Projects\CDPW_29\CDPW.DAL\bin\Debug\log4net.xml
+K:\Works\Projects\CDPW_29\CDPW.DAL\obj\Debug\ResolveAssemblyReference.cache
+K:\Works\Projects\CDPW_29\CDPW.DAL\obj\Debug\CDPW.DAL.dll
+K:\Works\Projects\CDPW_29\CDPW.DAL\obj\Debug\CDPW.DAL.pdb
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.DAL\bin\Debug\CDPW.DAL.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.DAL\bin\Debug\CDPW.DAL.pdb
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.DAL\bin\Debug\CDPW.BLL.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.DAL\bin\Debug\log4net.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.DAL\bin\Debug\CDPW.BLL.pdb
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.DAL\bin\Debug\log4net.xml
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.DAL\obj\Debug\CDPW.DAL.csprojResolveAssemblyReference.cache
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.DAL\obj\Debug\CDPW.DAL.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW.DAL\obj\Debug\CDPW.DAL.pdb

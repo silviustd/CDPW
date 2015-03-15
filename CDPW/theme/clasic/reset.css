@@ -1,0 +1,27 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+	margin: 0px;
+	padding: 0px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+fieldset, img {
+	border: 0px;
+}
+caption,
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+input, textarea, select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+.clearfloat {
+	height: 0px;
+	clear: both;
+	line-height: 0px;
+	font-size: 0px;
+}

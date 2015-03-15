@@ -1,0 +1,688 @@
+[Header]2013-01-27 10:34:14,766 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-27 10:34:14,791 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-27 10:34:14,793 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 10:34:14,793 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 10:34:38,030 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-27 10:34:38,030 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-27 10:34:38,030 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 10:34:38,030 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 10:34:38,084 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Enter
+2013-01-27 10:34:38,098 [4] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Enter
+2013-01-27 10:34:43,573 [4] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Exit
+2013-01-27 10:34:43,576 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:34:43,576 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:34:43,577 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:34:43,577 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:34:43,577 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:34:43,577 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:34:43,577 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:34:43,577 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:34:43,577 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:34:43,577 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:34:43,578 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:34:43,578 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:34:43,578 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:34:43,578 [4] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:34:43,585 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Exit
+2013-01-27 10:34:43,611 [11] INFO  CDPW.cdpselectpay [(null)] - cdpselectpay-Page_Load - Enter
+2013-01-27 10:34:43,611 [11] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 10:34:43,611 [11] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 10:39:00,132 [12] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Enter
+2013-01-27 10:39:00,132 [12] INFO  CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Redirect to Login
+2013-01-27 10:39:00,273 [12] ERROR CDPW.DUSAForm [(null)] - DUSAForm-Page_Load - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at CDPW.DUSAForm.Page_Load(Object sender, EventArgs e) in K:\Works\Projects\CDPW\CDPW\DUSAForm.aspx.cs:line 205
+2013-01-27 10:39:00,642 [16] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-27 10:39:00,643 [16] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-27 10:39:00,643 [16] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 10:39:00,643 [16] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 10:39:11,614 [12] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-27 10:39:11,614 [12] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-27 10:39:11,614 [12] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 10:39:11,614 [12] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+[Footer][Header]2013-01-27 10:51:07,229 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-27 10:51:07,257 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-27 10:51:07,367 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 10:51:07,367 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 10:52:46,120 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-27 10:52:46,120 [4] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-27 10:52:46,120 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 10:52:46,120 [4] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 10:52:56,200 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-27 10:52:56,200 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-27 10:52:56,200 [5] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 10:52:56,200 [5] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 10:52:59,798 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-27 10:52:59,798 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-27 10:52:59,798 [5] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 10:52:59,798 [5] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 10:52:59,801 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Enter
+2013-01-27 10:52:59,804 [5] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Enter
+2013-01-27 10:53:02,130 [5] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Exit
+2013-01-27 10:53:02,132 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:53:02,132 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:53:02,132 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:53:02,132 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:53:02,132 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:53:02,132 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:53:02,132 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:53:02,132 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:53:02,132 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:53:02,133 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:53:02,133 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:53:02,133 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:53:02,133 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 10:53:02,133 [5] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 10:53:02,133 [5] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Exit
+2013-01-27 10:53:02,163 [10] INFO  CDPW.cdpselectpay [(null)] - cdpselectpay-Page_Load - Enter
+2013-01-27 10:53:02,163 [10] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 10:53:02,163 [10] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:01:01,379 [13] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:01:01,383 [13] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Enter
+2013-01-27 11:01:16,016 [13] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Exit
+2013-01-27 11:01:16,246 [13] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Enter
+2013-01-27 11:01:17,765 [13] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Exit
+2013-01-27 11:01:17,766 [13] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:01:18,036 [13] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:01:18,037 [13] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-27 11:01:18,147 [13] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-27 11:01:18,147 [13] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:01:18,149 [13] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:01:18,150 [13] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:01:18,150 [13] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:01:18,150 [13] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:01:18,151 [13] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:01:18,151 [13] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:06:03,962 [13] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:06:03,963 [13] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:06:03,963 [13] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:03,963 [13] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:06:03,964 [13] INFO  CDPW.DCANForm [(null)] - DCANForm-ddlCountry_SelectedIndexChanged - Enter
+2013-01-27 11:06:03,964 [13] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Enter
+2013-01-27 11:06:03,972 [13] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Exit
+2013-01-27 11:06:03,972 [13] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:06:03,973 [13] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:06:03,973 [13] INFO  CDPW.DCANForm [(null)] - DCANForm-ddlCountry_SelectedIndexChanged - Exit
+2013-01-27 11:06:03,973 [13] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:06:03,973 [13] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:06:08,251 [12] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:06:08,252 [12] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:06:08,252 [12] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:08,252 [12] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:06:08,252 [12] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:06:08,252 [12] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:06:08,254 [12] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Enter
+2013-01-27 11:06:08,254 [12] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Exit
+2013-01-27 11:06:11,320 [16] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:06:11,321 [16] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:06:11,321 [16] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:11,321 [16] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:06:11,365 [16] INFO  CDPW.DCANForm [(null)] - DCANForm-btnSaveForm_Click - Enter
+2013-01-27 11:06:11,407 [16] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo - Enter
+2013-01-27 11:06:11,414 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:11,414 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:11,414 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:11,414 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:11,415 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:11,415 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:11,415 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:11,415 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:11,415 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:11,415 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:11,415 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:11,415 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:11,415 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:11,416 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:11,416 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:11,416 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:11,416 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:11,416 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:11,416 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:11,416 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:11,416 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:11,416 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,841 [16] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo - Exit
+2013-01-27 11:06:13,844 [16] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo_Person - Enter
+2013-01-27 11:06:13,848 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,848 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,848 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,848 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,848 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,848 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,848 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,848 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,848 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:13,849 [16] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:14,789 [16] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo_Person - Exit
+2013-01-27 11:06:15,858 [16] ERROR CDPW.DCANForm [(null)] - DCANForm-btnSaveForm_Click - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CDPW.DCANForm.btnSaveForm_Click(Object sender, EventArgs e) in K:\Works\Projects\CDPW\CDPW\DCANForm.aspx.cs:line 303
+2013-01-27 11:06:16,063 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:06:16,064 [15] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Enter
+2013-01-27 11:06:16,135 [15] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Exit
+2013-01-27 11:06:16,135 [15] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Enter
+2013-01-27 11:06:28,410 [15] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Exit
+2013-01-27 11:06:28,411 [15] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:06:28,411 [15] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:06:28,411 [15] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-27 11:06:28,504 [15] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-27 11:06:28,504 [15] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:06:28,506 [15] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:06:28,506 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,506 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,506 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,506 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,520 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,520 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,520 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,520 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,520 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,520 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,520 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:06:28,520 [15] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:28,520 [15] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:06:28,520 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:06:28,520 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:06:28,601 [9] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:06:28,633 [9] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Enter
+2013-01-27 11:06:28,683 [9] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Exit
+2013-01-27 11:06:28,683 [9] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Enter
+2013-01-27 11:06:28,690 [9] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Exit
+2013-01-27 11:06:28,690 [9] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:06:28,690 [9] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:06:28,691 [9] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-27 11:06:28,698 [9] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-27 11:06:28,698 [9] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:06:28,699 [9] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:06:28,700 [9] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,700 [9] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,700 [9] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,700 [9] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,700 [9] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,700 [9] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,700 [9] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,700 [9] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,700 [9] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,700 [9] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,700 [9] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:06:28,700 [9] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:28,700 [9] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:06:28,700 [9] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:06:28,700 [9] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:06:28,831 [12] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:06:28,832 [12] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:06:28,832 [12] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:28,832 [12] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:06:28,832 [12] INFO  CDPW.DCANForm [(null)] - DCANForm-btnSaveForm_Click - Enter
+2013-01-27 11:06:28,832 [12] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:06:28,836 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:06:28,837 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,837 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,858 [12] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo - Exit
+2013-01-27 11:06:28,859 [12] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo_Person - Enter
+2013-01-27 11:06:28,862 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,862 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,862 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,862 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,862 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,862 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,862 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,862 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,862 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,862 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:06:28,863 [12] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:06:28,872 [12] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo_Person - Exit
+2013-01-27 11:06:28,905 [12] ERROR CDPW.DCANForm [(null)] - DCANForm-btnSaveForm_Click - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CDPW.DCANForm.btnSaveForm_Click(Object sender, EventArgs e) in K:\Works\Projects\CDPW\CDPW\DCANForm.aspx.cs:line 303
+2013-01-27 11:06:28,964 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:06:28,964 [15] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Enter
+2013-01-27 11:06:28,972 [15] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Exit
+2013-01-27 11:06:28,972 [15] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Enter
+2013-01-27 11:06:28,980 [15] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Exit
+2013-01-27 11:06:28,981 [15] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:06:28,981 [15] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:06:28,981 [15] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-27 11:06:28,987 [15] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-27 11:06:28,987 [15] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:06:28,989 [15] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:06:28,989 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:06:28,989 [15] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:28,989 [15] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:06:28,989 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:06:28,989 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:06:29,452 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:06:29,453 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:06:29,453 [15] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:29,453 [15] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:06:29,453 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:06:29,453 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:06:29,453 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Enter
+2013-01-27 11:06:29,453 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Exit
+2013-01-27 11:06:31,541 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:06:31,541 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:06:31,541 [15] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:31,541 [15] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:06:31,541 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:06:31,541 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:06:31,541 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Enter
+2013-01-27 11:06:31,542 [15] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Exit
+2013-01-27 11:06:34,395 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Enter
+2013-01-27 11:06:37,791 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Enter
+2013-01-27 11:06:38,408 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Exit
+2013-01-27 11:06:38,411 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Exit
+2013-01-27 11:06:38,411 [9] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:38,411 [9] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:06:44,314 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:06:44,406 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:06:44,406 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:06:44,410 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:06:44,575 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:06:44,654 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:06:44,654 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:06:44,655 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:06:44,776 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:06:44,970 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:06:44,970 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:06:44,971 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:06:48,021 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Enter
+2013-01-27 11:06:48,021 [9] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Exit
+2013-01-27 11:06:48,021 [9] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:06:48,021 [9] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:51:52,404 [54] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:51:52,405 [54] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Enter
+2013-01-27 11:51:52,422 [54] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Exit
+2013-01-27 11:51:52,422 [54] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Enter
+2013-01-27 11:51:52,429 [54] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Exit
+2013-01-27 11:51:52,429 [54] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:51:52,429 [54] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:51:52,429 [54] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-27 11:51:52,438 [54] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-27 11:51:52,438 [54] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:51:52,460 [54] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:51:52,460 [54] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:51:52,461 [54] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:51:52,461 [54] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:51:52,461 [54] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:51:52,461 [54] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:56:00,347 [50] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-27 11:56:00,347 [50] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-27 11:56:00,347 [50] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:56:00,347 [50] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:56:27,912 [53] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Enter
+2013-01-27 11:56:27,913 [53] INFO  CDPW.cdplogin [(null)] - cdplogin-Page_Load - Exit
+2013-01-27 11:56:27,913 [53] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:56:27,913 [53] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:56:27,913 [53] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Enter
+2013-01-27 11:56:27,913 [53] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Enter
+2013-01-27 11:56:27,920 [53] INFO  CDPW.DAL.Users [(null)] - Users-Add_NoUser - Exit
+2013-01-27 11:56:27,920 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:56:27,920 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:56:27,921 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:56:27,921 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:56:27,921 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:56:27,921 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:56:27,921 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:56:27,921 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:56:27,939 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:56:27,939 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:56:27,939 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:56:27,939 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:56:27,939 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:56:27,939 [53] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:56:27,939 [53] INFO  CDPW.cdplogin [(null)] - cdplogin-btnNoSignUp_Click - Exit
+2013-01-27 11:56:27,963 [50] INFO  CDPW.cdpselectpay [(null)] - cdpselectpay-Page_Load - Enter
+2013-01-27 11:56:27,963 [50] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:56:27,963 [50] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:56:29,644 [53] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:56:29,645 [53] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Enter
+2013-01-27 11:56:29,694 [53] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Exit
+2013-01-27 11:56:29,694 [53] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Enter
+2013-01-27 11:56:29,699 [53] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Exit
+2013-01-27 11:56:29,699 [53] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:56:29,700 [53] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:56:29,700 [53] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-27 11:56:29,706 [53] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-27 11:56:29,706 [53] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:56:29,708 [53] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:56:29,708 [53] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:56:29,708 [53] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:56:29,708 [53] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:56:29,708 [53] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:56:29,708 [53] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:57:04,259 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:57:04,259 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:57:04,260 [52] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:57:04,260 [52] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:57:04,260 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:57:04,260 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:57:04,260 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Enter
+2013-01-27 11:57:04,260 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Exit
+2013-01-27 11:57:04,376 [47] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:57:04,376 [47] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:57:04,376 [47] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:57:04,376 [47] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:57:04,376 [47] INFO  CDPW.DCANForm [(null)] - DCANForm-btnSaveForm_Click - Enter
+2013-01-27 11:57:04,376 [47] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo - Enter
+2013-01-27 11:57:04,380 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,380 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,380 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,380 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,380 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:57:04,380 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:57:04,380 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:57:04,380 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:57:04,380 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,380 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Enter
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnIntToDB - Exit
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,381 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,394 [47] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo - Exit
+2013-01-27 11:57:04,394 [47] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo_Person - Enter
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,398 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Enter
+2013-01-27 11:57:04,399 [47] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnToDB - Exit
+2013-01-27 11:57:04,400 [47] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_AddInfo_Person - Exit
+2013-01-27 11:57:04,441 [47] ERROR CDPW.DCANForm [(null)] - DCANForm-btnSaveForm_Click - Error
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at CDPW.DCANForm.btnSaveForm_Click(Object sender, EventArgs e) in K:\Works\Projects\CDPW\CDPW\DCANForm.aspx.cs:line 303
+2013-01-27 11:57:04,474 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:57:04,474 [52] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Enter
+2013-01-27 11:57:04,480 [52] INFO  CDPW.DAL.FormCanada [(null)] - FormCanada-Form_Get - Exit
+2013-01-27 11:57:04,480 [52] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Enter
+2013-01-27 11:57:05,264 [52] INFO  CDPW.DAL.Lists [(null)] - Lists-Regions - Exit
+2013-01-27 11:57:05,265 [52] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:57:05,304 [52] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:57:05,304 [52] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Enter
+2013-01-27 11:57:05,311 [52] INFO  CDPW.DAL.Lists [(null)] - Lists-Countries - Exit
+2013-01-27 11:57:05,311 [52] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Enter
+2013-01-27 11:57:05,313 [52] INFO  CDPW.BLL.Helpers [(null)] - Helpers-Lists - Exit
+2013-01-27 11:57:05,313 [52] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:57:05,313 [52] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:57:05,313 [52] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:57:05,313 [52] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:57:05,313 [52] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:57:05,313 [52] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:57:05,313 [52] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:57:05,313 [52] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:57:05,314 [52] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Enter
+2013-01-27 11:57:05,314 [52] INFO  CDPW.BLL.TextUtils [(null)] - TextUtils-ReturnFromDB - Exit
+2013-01-27 11:57:05,314 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:57:05,314 [52] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:57:05,314 [52] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:57:05,314 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:57:05,314 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:57:08,853 [51] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:57:08,854 [51] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:57:08,854 [51] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:57:08,854 [51] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:57:08,854 [51] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:57:08,854 [51] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:57:08,854 [51] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Enter
+2013-01-27 11:57:08,854 [51] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Exit
+2013-01-27 11:57:09,280 [47] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Enter
+2013-01-27 11:57:11,217 [47] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Enter
+2013-01-27 11:57:11,521 [47] ERROR CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Error
+System.Data.ConstraintException: Failed to enable constraints. One or more rows contain values violating non-null, unique, or foreign-key constraints.
+   at System.Data.DataTable.EnableConstraints()
+   at System.Data.DataTable.set_EnforceConstraints(Boolean value)
+   at System.Data.DataTable.EndLoadData()
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at CDPW.CDP_DatasetTableAdapters.Get_CAN_FlightInfoTableAdapter.Fill(Get_CAN_FlightInfoDataTable dataTable, Int64 WAppUserId) in K:\Works\Projects\CDPW\CDPW\CDP_Dataset.designer.cs:line 5991
+   at CDPW.cdpprintpreview.Load_CNDReport_Data(Int64 UserId) in K:\Works\Projects\CDPW\CDPW\cdpprintpreview.aspx.cs:line 149
+2013-01-27 11:57:11,593 [47] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Exit
+2013-01-27 11:57:11,593 [47] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Exit
+2013-01-27 11:57:11,593 [47] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:57:11,593 [47] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:57:49,864 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:57:49,865 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:57:49,865 [52] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:57:49,865 [52] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:57:49,865 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:57:49,865 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:57:49,865 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Enter
+2013-01-27 11:57:49,865 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Exit
+2013-01-27 11:57:50,191 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Enter
+2013-01-27 11:57:50,614 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Enter
+2013-01-27 11:57:50,696 [50] ERROR CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Error
+System.Data.ConstraintException: Failed to enable constraints. One or more rows contain values violating non-null, unique, or foreign-key constraints.
+   at System.Data.DataTable.EnableConstraints()
+   at System.Data.DataTable.set_EnforceConstraints(Boolean value)
+   at System.Data.DataTable.EndLoadData()
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at CDPW.CDP_DatasetTableAdapters.Get_CAN_FlightInfoTableAdapter.Fill(Get_CAN_FlightInfoDataTable dataTable, Int64 WAppUserId) in K:\Works\Projects\CDPW\CDPW\CDP_Dataset.designer.cs:line 5991
+   at CDPW.cdpprintpreview.Load_CNDReport_Data(Int64 UserId) in K:\Works\Projects\CDPW\CDPW\cdpprintpreview.aspx.cs:line 149
+2013-01-27 11:57:50,696 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Exit
+2013-01-27 11:57:50,696 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Exit
+2013-01-27 11:57:50,696 [50] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:57:50,696 [50] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:58:07,877 [48] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:58:07,878 [48] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:58:07,878 [48] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:58:07,878 [48] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:58:07,878 [48] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:58:07,878 [48] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:58:07,878 [48] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Enter
+2013-01-27 11:58:07,878 [48] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Exit
+2013-01-27 11:58:08,174 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Enter
+2013-01-27 11:58:08,508 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Enter
+2013-01-27 11:58:08,588 [50] ERROR CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Error
+System.Data.ConstraintException: Failed to enable constraints. One or more rows contain values violating non-null, unique, or foreign-key constraints.
+   at System.Data.DataTable.EnableConstraints()
+   at System.Data.DataTable.set_EnforceConstraints(Boolean value)
+   at System.Data.DataTable.EndLoadData()
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at CDPW.CDP_DatasetTableAdapters.Get_CAN_FlightInfoTableAdapter.Fill(Get_CAN_FlightInfoDataTable dataTable, Int64 WAppUserId) in K:\Works\Projects\CDPW\CDPW\CDP_Dataset.designer.cs:line 5991
+   at CDPW.cdpprintpreview.Load_CNDReport_Data(Int64 UserId) in K:\Works\Projects\CDPW\CDPW\cdpprintpreview.aspx.cs:line 149
+2013-01-27 11:58:08,589 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Exit
+2013-01-27 11:58:08,589 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Exit
+2013-01-27 11:58:08,589 [50] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:58:08,589 [50] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:58:22,421 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:58:22,422 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:58:22,422 [52] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:58:22,422 [52] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:58:22,422 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:58:22,422 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:58:22,422 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Enter
+2013-01-27 11:58:22,422 [52] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Exit
+2013-01-27 11:58:22,703 [48] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Enter
+2013-01-27 11:58:23,121 [48] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Enter
+2013-01-27 11:58:23,197 [48] ERROR CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Error
+System.Data.ConstraintException: Failed to enable constraints. One or more rows contain values violating non-null, unique, or foreign-key constraints.
+   at System.Data.DataTable.EnableConstraints()
+   at System.Data.DataTable.set_EnforceConstraints(Boolean value)
+   at System.Data.DataTable.EndLoadData()
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at CDPW.CDP_DatasetTableAdapters.Get_CAN_FlightInfoTableAdapter.Fill(Get_CAN_FlightInfoDataTable dataTable, Int64 WAppUserId) in K:\Works\Projects\CDPW\CDPW\CDP_Dataset.designer.cs:line 5991
+   at CDPW.cdpprintpreview.Load_CNDReport_Data(Int64 UserId) in K:\Works\Projects\CDPW\CDPW\cdpprintpreview.aspx.cs:line 149
+2013-01-27 11:58:23,197 [48] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Exit
+2013-01-27 11:58:23,197 [48] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Exit
+2013-01-27 11:58:23,197 [48] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:58:23,198 [48] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:58:44,077 [47] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Enter
+2013-01-27 11:58:44,078 [47] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_Load - Exit
+2013-01-27 11:58:44,078 [47] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:58:44,078 [47] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:58:44,078 [47] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Enter
+2013-01-27 11:58:44,078 [47] INFO  CDPW.DCANForm [(null)] - DCANForm-Page_LoadComplete - Exit
+2013-01-27 11:58:44,078 [47] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Enter
+2013-01-27 11:58:44,078 [47] INFO  CDPW.DCANForm [(null)] - DCANForm-RaiseCallbackEvent - Exit
+2013-01-27 11:58:44,416 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Enter
+2013-01-27 11:58:44,776 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Enter
+2013-01-27 11:58:44,816 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Load_CNDReport_Data - Exit
+2013-01-27 11:58:44,817 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Exit
+2013-01-27 11:58:44,817 [50] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:58:44,817 [50] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit
+2013-01-27 11:58:46,775 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:58:46,776 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:58:46,776 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:58:46,777 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:58:46,895 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:58:46,896 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:58:46,896 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:58:46,896 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:58:47,015 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:58:47,016 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:58:47,016 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Enter
+2013-01-27 11:58:47,017 [50] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-LocalReport_SubreportProcessing - Exit
+2013-01-27 11:58:47,942 [51] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Enter
+2013-01-27 11:58:47,942 [51] INFO  CDPW.cdpprintpreview [(null)] - cdpprintpreview-Page_Load - Exit
+2013-01-27 11:58:47,942 [51] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Enter
+2013-01-27 11:58:47,942 [51] INFO  CDPW.Site1 [(null)] - Site1-Page_Load - Exit

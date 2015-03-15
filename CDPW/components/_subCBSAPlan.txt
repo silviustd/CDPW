@@ -1,0 +1,16 @@
+<div class="select-1">
+
+	<h3>CBSA Canada Border Services Agency Declaration Card</h3>
+	<select name="os0">
+		<option value="Subscription">Subscription : $3.99 CAD - monthly</option>
+		<option value="Subscription">Subscription : $41.99 CAD - yearly</option>
+	</select>
+
+	<div class="clearfloat">&nbsp;</div>
+
+	<p class="note-3">
+		Our records indicate that you are subscribed to this plan. Please <a href="mailto:office@columnasoft.com?subject=CBSA%20Plan">email us</A> if we are wrong.<br />
+		To unsubscribe: If you have a paypal account click <a href="cdpmsgreg.aspx?plan=cbsa&act=unsub">here</a>, otherwise <a href="mailto:office@columnasoft.com?subject=Unsubscribe-CBSA%20Plan">email us</A> with your Name, Address, Email and Plan</a>
+	</p>
+
+</div>

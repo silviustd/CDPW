@@ -1,0 +1,120 @@
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\CDPW.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\CDPW.pdb
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\CDPW.BLL.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\CDPW.DAL.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\log4net.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\Microsoft.ReportViewer.Common.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\Microsoft.ReportViewer.WebForms.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\CDPW.BLL.pdb
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\CDPW.DAL.pdb
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\log4net.xml
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\bin\Microsoft.ReportViewer.WebForms.xml
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\obj\Debug\ResolveAssemblyReference.cache
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\obj\Debug\RdlCompile.cache
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\obj\Debug\RdlCompile.compiled
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\obj\Debug\CDPW.dll
+K:\Works\Projects\CustomDeclarationPrinting\CDPW\CDPW\obj\Debug\CDPW.pdb
+D:\Lucru\CDPW\CDPW\bin\CDPW.dll
+D:\Lucru\CDPW\CDPW\bin\CDPW.pdb
+D:\Lucru\CDPW\CDPW\bin\CDPW.BLL.dll
+D:\Lucru\CDPW\CDPW\bin\CDPW.DAL.dll
+D:\Lucru\CDPW\CDPW\bin\log4net.dll
+D:\Lucru\CDPW\CDPW\bin\Microsoft.ReportViewer.Common.dll
+D:\Lucru\CDPW\CDPW\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Lucru\CDPW\CDPW\bin\CDPW.BLL.pdb
+D:\Lucru\CDPW\CDPW\bin\CDPW.DAL.pdb
+D:\Lucru\CDPW\CDPW\bin\log4net.xml
+D:\Lucru\CDPW\CDPW\bin\Microsoft.ReportViewer.WebForms.xml
+D:\Lucru\CDPW\CDPW\obj\Debug\ResolveAssemblyReference.cache
+D:\Lucru\CDPW\CDPW\obj\Debug\RdlCompile.cache
+D:\Lucru\CDPW\CDPW\obj\Debug\RdlCompile.compiled
+D:\Lucru\CDPW\CDPW\obj\Debug\CDPW.dll
+D:\Lucru\CDPW\CDPW\obj\Debug\CDPW.pdb
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\CDPW.dll
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\CDPW.pdb
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\CDPW.BLL.dll
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\CDPW.DAL.dll
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\log4net.dll
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\Microsoft.ReportViewer.Common.dll
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\Microsoft.ReportViewer.WebForms.dll
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\CDPW.BLL.pdb
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\CDPW.DAL.pdb
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\log4net.xml
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\bin\Microsoft.ReportViewer.WebForms.xml
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\obj\Debug\ResolveAssemblyReference.cache
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\obj\Debug\RdlCompile.cache
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\obj\Debug\RdlCompile.compiled
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\obj\Debug\CDPW.dll
+K:\Works\Projects\CustomDeclaration\CDPW\CDPW\obj\Debug\CDPW.pdb
+G:\CDPW\CDPW\bin\CDPW.dll
+G:\CDPW\CDPW\bin\CDPW.pdb
+G:\CDPW\CDPW\bin\CDPW.BLL.dll
+G:\CDPW\CDPW\bin\CDPW.DAL.dll
+G:\CDPW\CDPW\bin\log4net.dll
+G:\CDPW\CDPW\bin\Microsoft.ReportViewer.Common.dll
+G:\CDPW\CDPW\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+G:\CDPW\CDPW\bin\Microsoft.ReportViewer.WebForms.dll
+G:\CDPW\CDPW\bin\SoftisServ.WebUtils.dll
+G:\CDPW\CDPW\bin\CDPW.BLL.pdb
+G:\CDPW\CDPW\bin\CDPW.DAL.pdb
+G:\CDPW\CDPW\bin\log4net.xml
+G:\CDPW\CDPW\bin\Microsoft.ReportViewer.WebForms.xml
+G:\CDPW\CDPW\obj\Debug\ResolveAssemblyReference.cache
+G:\CDPW\CDPW\obj\Debug\RdlCompile.cache
+G:\CDPW\CDPW\obj\Debug\RdlCompile.compiled
+G:\CDPW\CDPW\obj\Debug\CDPW.dll
+G:\CDPW\CDPW\obj\Debug\CDPW.pdb
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\CDPW.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\CDPW.pdb
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\CDPW.BLL.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\CDPW.DAL.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\log4net.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\Microsoft.ReportViewer.Common.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\Microsoft.ReportViewer.WebForms.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\SoftisServ.WebUtils.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\CDPW.BLL.pdb
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\CDPW.DAL.pdb
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\log4net.xml
+K:\Works\Projects\CDPW - Copy (2)\CDPW\bin\Microsoft.ReportViewer.WebForms.xml
+K:\Works\Projects\CDPW - Copy (2)\CDPW\obj\Debug\ResolveAssemblyReference.cache
+K:\Works\Projects\CDPW - Copy (2)\CDPW\obj\Debug\RdlCompile.cache
+K:\Works\Projects\CDPW - Copy (2)\CDPW\obj\Debug\RdlCompile.compiled
+K:\Works\Projects\CDPW - Copy (2)\CDPW\obj\Debug\CDPW.dll
+K:\Works\Projects\CDPW - Copy (2)\CDPW\obj\Debug\CDPW.pdb
+K:\Works\Projects\CDPW_29\CDPW\bin\CDPW.dll
+K:\Works\Projects\CDPW_29\CDPW\bin\CDPW.pdb
+K:\Works\Projects\CDPW_29\CDPW\bin\CDPW.BLL.dll
+K:\Works\Projects\CDPW_29\CDPW\bin\CDPW.DAL.dll
+K:\Works\Projects\CDPW_29\CDPW\bin\log4net.dll
+K:\Works\Projects\CDPW_29\CDPW\bin\Microsoft.ReportViewer.Common.dll
+K:\Works\Projects\CDPW_29\CDPW\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+K:\Works\Projects\CDPW_29\CDPW\bin\Microsoft.ReportViewer.WebForms.dll
+K:\Works\Projects\CDPW_29\CDPW\bin\SoftisServ.WebUtils.dll
+K:\Works\Projects\CDPW_29\CDPW\bin\CDPW.BLL.pdb
+K:\Works\Projects\CDPW_29\CDPW\bin\CDPW.DAL.pdb
+K:\Works\Projects\CDPW_29\CDPW\bin\log4net.xml
+K:\Works\Projects\CDPW_29\CDPW\bin\Microsoft.ReportViewer.WebForms.xml
+K:\Works\Projects\CDPW_29\CDPW\obj\Debug\ResolveAssemblyReference.cache
+K:\Works\Projects\CDPW_29\CDPW\obj\Debug\RdlCompile.cache
+K:\Works\Projects\CDPW_29\CDPW\obj\Debug\RdlCompile.compiled
+K:\Works\Projects\CDPW_29\CDPW\obj\Debug\CDPW.dll
+K:\Works\Projects\CDPW_29\CDPW\obj\Debug\CDPW.pdb
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\CDPW.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\CDPW.pdb
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\CDPW.BLL.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\CDPW.DAL.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\log4net.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\Microsoft.ReportViewer.Common.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\Microsoft.ReportViewer.WebForms.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\SoftisServ.WebUtils.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\CDPW.BLL.pdb
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\CDPW.DAL.pdb
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\log4net.xml
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\bin\Microsoft.ReportViewer.WebForms.xml
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\obj\Debug\CDPW.csprojResolveAssemblyReference.cache
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\obj\Debug\RdlCompile.cache
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\obj\Debug\RdlCompile.compiled
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\obj\Debug\CDPW.dll
+K:\Projects\CS\CDPW_Project_\CDPW\CDPW\obj\Debug\CDPW.pdb
