@@ -63,7 +63,7 @@ namespace CDPW.BLL
             if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Enter");
             var toReturn = new object();
 
-            if (string.IsNullOrEmpty(text))
+            if (string.IsNullOrWhiteSpace(text))
             {
                 toReturn = DBNull.Value; //string.Empty;
             }
@@ -148,6 +148,20 @@ namespace CDPW.BLL
             if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Exit");
             return (FromDB) ? "1" : "0";
         }
+
+        public static Object ReturnBitToDB(String ToDB)
+        {
+            Object _returnBitToDB = DBNull.Value;
+
+            if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Enter/Exit");
+
+            if (!String.IsNullOrWhiteSpace(ToDB)) {
+                _returnBitToDB = Convert.ToByte(ToDB);
+            }
+
+            return _returnBitToDB;
+        }
+
         #endregion
     }      
 }

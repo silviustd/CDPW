@@ -250,7 +250,7 @@
                                 <asp:Label ID="lblArrive" AssociatedControlID="rblArrive" runat="server" Text="Arriving by:"
                                     class="bold"></asp:Label><br />
                                 <asp:RadioButtonList ID="rblArrive" runat="server" RepeatLayout="Flow" TextAlign="Left" RepeatDirection="Horizontal" AutoPostBack="False" onchange="javascript:ChangeAlert();">
-                                    <asp:ListItem Value="0" Text="Air" Selected="True" />
+                                    <asp:ListItem Value="0" Text="Air"  />
                                     <asp:ListItem Value="1" Text="Rail" />
                                     <asp:ListItem Value="2" Text="Marina" />
                                     <asp:ListItem Value="3" Text="Highway" />
@@ -266,7 +266,7 @@
                                 <asp:RadioButtonList ID="rblPurpose" runat="server" TextAlign="Left" RepeatLayout="UnorderedList"
                                     CssClass="radiosVertical" AutoPostBack="False" onchange="javascript:ChangeAlert();">
                                     <asp:ListItem Value="0" Text="Study" />
-                                    <asp:ListItem Value="1" Text="Personal" Selected="True" />
+                                    <asp:ListItem Value="1" Text="Personal" />
                                     <asp:ListItem Value="2" Text="Business" />
                                 </asp:RadioButtonList>
                             </td>
@@ -274,7 +274,7 @@
                                 <asp:Label ID="lblArriveFrom" AssociatedControlID="rblArriveFrom" runat="server"
                                     Text="Arriving from:" class="bold"></asp:Label><br />
                                 <asp:RadioButtonList ID="rblArriveFrom" runat="server" TextAlign="Left" RepeatLayout="UnorderedList" CssClass="radiosVertical" AutoPostBack="False" onchange="javascript:ChangeAlert();">
-                                    <asp:ListItem Value="0" Text="U.S only" Selected="True" />
+                                    <asp:ListItem Value="0" Text="U.S only" />
                                     <asp:ListItem Value="1" Text="Other country direct" />
                                     <asp:ListItem Value="2" Text="Other country via U.S." />
                                 </asp:RadioButtonList>
@@ -306,7 +306,7 @@
                                 <asp:RadioButtonList ID="rblFirearms" runat="server" RepeatDirection="Horizontal"
                                     RepeatLayout="Table" CssClass="radiosHorizontal" AutoPostBack="False" onchange="javascript:ChangeAlert();">
                                     <asp:ListItem Value="1" Text="" />
-                                    <asp:ListItem Value="0" Text="" Selected="True" />
+                                    <asp:ListItem Value="0" Text="" />
                                 </asp:RadioButtonList>
                                 <asp:CheckBox ID="chkWeaponsY" runat="server" Text="" TextAlign="Left" Visible="false" />
                             </td>
@@ -321,7 +321,7 @@
                                 <asp:RadioButtonList ID="rblCG" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table" AutoPostBack="False" onchange="javascript:ChangeAlert();"
                                     CssClass="radiosHorizontal">
                                     <asp:ListItem Value="1" Text="" />
-                                    <asp:ListItem Value="0" Text="" Selected="True" />
+                                    <asp:ListItem Value="0" Text=""  />
                                 </asp:RadioButtonList>
                                 <asp:CheckBox ID="chkCGY" runat="server" Text="" TextAlign="Left" Visible="false" />
                             </td>
@@ -337,7 +337,7 @@
                                 <asp:RadioButtonList ID="rblFood" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table" AutoPostBack="False" onchange="javascript:ChangeAlert();"
                                     CssClass="radiosHorizontal">
                                     <asp:ListItem Value="1" Text="" />
-                                    <asp:ListItem Value="0" Text="" Selected="True" />
+                                    <asp:ListItem Value="0" Text="" />
                                 </asp:RadioButtonList>
                                 <asp:CheckBox ID="chkFoodY" runat="server" Text="" TextAlign="Left" Visible="false" />
                             </td>
@@ -352,7 +352,7 @@
                                 <asp:RadioButtonList ID="rblMoney" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table" AutoPostBack="False" onchange="javascript:ChangeAlert();"
                                     CssClass="radiosHorizontal">
                                     <asp:ListItem Value="1" Text="" />
-                                    <asp:ListItem Value="0" Text="" Selected="True" />
+                                    <asp:ListItem Value="0" Text="" />
                                 </asp:RadioButtonList>
                                 <asp:CheckBox ID="chkMoneyY" runat="server" Text="" TextAlign="Left" Visible="false" />
                             </td>
@@ -366,7 +366,7 @@
                                 <asp:RadioButtonList ID="rblGoods" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table" AutoPostBack="False" onchange="javascript:ChangeAlert();"
                                     CssClass="radiosHorizontal">
                                     <asp:ListItem Value="1" Text="" />
-                                    <asp:ListItem Value="0" Text="" Selected="True" />
+                                    <asp:ListItem Value="0" Text=""  />
                                 </asp:RadioButtonList>
                                 <asp:CheckBox ID="chkGoodsY" runat="server" Text="" TextAlign="Left" Visible="false" />
                             </td>
@@ -380,7 +380,7 @@
                                 <asp:RadioButtonList ID="rblFarm" runat="server" RepeatDirection="Horizontal" AutoPostBack="False" onchange="javascript:ChangeAlert();"
                                     RepeatLayout="Table" CssClass="radiosHorizontal">
                                     <asp:ListItem Value="1" Text="" />
-                                    <asp:ListItem Value="0" Text="" Selected="True" />
+                                    <asp:ListItem Value="0" Text=""  />
                                 </asp:RadioButtonList>
                                 <asp:CheckBox ID="chkFarmY" runat="server" Text="" TextAlign="Left" Visible="false" />
                             </td>
@@ -407,7 +407,7 @@
                                 <asp:RadioButtonList ID="rblExceededDutyFree" runat="server" RepeatDirection="Horizontal" AutoPostBack="False" onchange="javascript:ChangeAlert();"
                                     TextAlign="Left" CssClass="rblB_C">
                                     <asp:ListItem Value="1" Text="Yes" />
-                                    <asp:ListItem Value="0" Text="No" Selected="True" />
+                                    <asp:ListItem Value="0" Text="No" />
                                 </asp:RadioButtonList>
                             </td>
                         </tr>
@@ -427,7 +427,7 @@
                                 <asp:RadioButtonList ID="rblExceededExemptions" runat="server" RepeatDirection="Horizontal" AutoPostBack="False" onchange="javascript:ChangeAlert();"
                                     TextAlign="Left" CssClass="rblB_C">
                                     <asp:ListItem Value="1" Text="Yes" />
-                                    <asp:ListItem Value="0" Text="No" Selected="True" />
+                                    <asp:ListItem Value="0" Text="No" />
                                 </asp:RadioButtonList>
                             </td>
                         </tr>

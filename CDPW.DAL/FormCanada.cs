@@ -41,15 +41,15 @@ namespace CDPW.DAL
                     cmd.Parameters.Add("@TransportationId", SqlDbType.NVarChar, 100).Value = TextUtils.ReturnToDB(TranspId);
                     cmd.Parameters.Add("@PurposeTrip", SqlDbType.TinyInt).Value = TextUtils.ReturnIntToDB(PurposeTrip, true);
                     cmd.Parameters.Add("@ArrivingFrom", SqlDbType.TinyInt).Value = TextUtils.ReturnIntToDB(ArrivingBy, true);
-                    cmd.Parameters.Add("@Firearms", SqlDbType.Char, 1).Value = Firearms;
-                    cmd.Parameters.Add("@CommercialGoods", SqlDbType.Char, 1).Value = CommercialGoods;
-                    cmd.Parameters.Add("@MeatProducts", SqlDbType.Char, 1).Value = MeatProducts;
-                    cmd.Parameters.Add("@Currency", SqlDbType.Char, 1).Value = Currency;
-                    cmd.Parameters.Add("@GoodsShipped", SqlDbType.Char, 1).Value = GoodsShipped;
-                    cmd.Parameters.Add("@FarmVisit", SqlDbType.Char, 1).Value = FarmVisit;
+                    cmd.Parameters.Add("@Firearms", SqlDbType.Char, 1).Value = TextUtils.ReturnBitToDB(Firearms);
+                    cmd.Parameters.Add("@CommercialGoods", SqlDbType.Char, 1).Value = TextUtils.ReturnBitToDB(CommercialGoods);
+                    cmd.Parameters.Add("@MeatProducts", SqlDbType.Char, 1).Value = TextUtils.ReturnBitToDB(MeatProducts);
+                    cmd.Parameters.Add("@Currency", SqlDbType.Char, 1).Value = TextUtils.ReturnBitToDB(Currency);
+                    cmd.Parameters.Add("@GoodsShipped", SqlDbType.Char, 1).Value = TextUtils.ReturnBitToDB(GoodsShipped);
+                    cmd.Parameters.Add("@FarmVisit", SqlDbType.Char, 1).Value = TextUtils.ReturnBitToDB(FarmVisit);
                     cmd.Parameters.Add("@Duration", SqlDbType.SmallInt).Value = TextUtils.ReturnIntToDB(Duration, true);
-                    cmd.Parameters.Add("@ExceededDutyFree", SqlDbType.Char, 1).Value = ExceededDutyFree;
-                    cmd.Parameters.Add("@ExceededExemptions", SqlDbType.Char, 1).Value = ExceededExemptions;
+                    cmd.Parameters.Add("@ExceededDutyFree", SqlDbType.Char, 1).Value = TextUtils.ReturnBitToDB(ExceededDutyFree);
+                    cmd.Parameters.Add("@ExceededExemptions", SqlDbType.Char, 1).Value = TextUtils.ReturnBitToDB(ExceededExemptions);
                     cmd.Parameters.Add("@dDate", SqlDbType.SmallDateTime).Value = TextUtils.ReturnToDB(dDate, true);
                     //
                     cmd.Parameters.Add("@WTripInfoCANId", SqlDbType.BigInt).Direction = ParameterDirection.Output;
