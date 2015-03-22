@@ -121,11 +121,11 @@ namespace CDPW
                                 }
                             }
 
-                            lblCUSCBP.Text = strlblPUSCBP;
+                            //lblCUSCBP.Text = strlblPUSCBP;
                         }
                         else
                         {
-                            lblCUSCBP.Text = "Plans are available only for registered users";
+                            //lblCUSCBP.Text = "Plans are available only for registered users";
                         }
 
                         if (!unregisteredUser)
@@ -165,7 +165,7 @@ namespace CDPW
                                     strlblPCBSA += strBuffer.Replace('"', '\'');
                                 }
                             }
-                            lblCCBSA.Text = strlblPCBSA;
+                            //lblCCBSA.Text = strlblPCBSA;
                         }
                         else
                         {

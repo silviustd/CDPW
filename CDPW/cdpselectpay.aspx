@@ -36,7 +36,7 @@
 
         <div class="clearfloat">&nbsp;</div>
         <form action="#">&nbsp;</form>
-		<div class="select-1">
+<%--		<div class="select-1">
 			<h3>U.S. Customs and Border Protection Customs Declaration</h3>
 			<select>
 				<option selected="selected">0.99 CAD</option>
@@ -49,10 +49,10 @@
 				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 			</form>
-        </div>
+        </div>--%>
          
 
-		<div class="select-1">
+<%--		<div class="select-1">
 			<h3>Canada Border Services Agency Declaration Card</h3>
 			<select>
 				<option selected="selected">0.99 CAD</option>
@@ -66,8 +66,8 @@
 			</form>
 		</div>
 
-
-			<div id="cut">Or cut the costs and select a plan</div>
+--%>
+<%--			<div id="cut">Or cut the costs and select a plan</div>
 			<p class="note-1" style="border-top: none;"><asp:Label ID="lblCUSCBP" runat="server" Text=""/></p>
 			<asp:Label ID="lblCCBSA" runat="server" Text="" />
 			<div class="clearfloat">
@@ -75,7 +75,7 @@
 			<p class="note-1" style="padding-bottom: 20px;">
 				* All the plans include 2 weeks free trial<br/>
 				** Any plan will be automatically renewed, unless otherwise notified
-			</p>
+			</p>--%>
 		</div>
 	</div>
 
