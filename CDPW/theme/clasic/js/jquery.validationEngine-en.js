@@ -176,6 +176,59 @@
                     },
                     "alertText": "The value should be between 0 and 214,748.3647"
                 },
+                "money2CAN": {
+                    "func": function (field) {
+
+                        var decp = field.val().indexOf(".");
+                        var decp2 = field.val().lastIndexOf(".");
+
+                        //                        var decpOcc = field.val().split(".");
+                        //                        if (decpOcc.length > 2){
+                        //                            return false;
+                        //                        }
+
+                        var nA = field.val().split(",");
+                        var nS = "";
+                        for (i = 0; i < nA.length; i++) {
+                            if (i > 0 && nA[i].length != 3) {
+                                return false;
+                            }
+                        }
+
+                        if (decp != decp2) {
+                            return false;
+                        }
+                        else {
+                            //decimal
+                            if (decp2 >= 0) {
+
+                                var nA = field.val().split(",");
+                                var nS = "";
+                                for (i = 0; i < nA.length; i++) {
+                                    nS = nS + nA[i];
+                                }
+                                var nN = new Number(nS);
+                                return (nN >= 0 && nN <= 9999.99) ? true : false;
+                            }
+                            else {
+                                var nA = field.val().split(",");
+                                var nS = "";
+                                for (i = 0; i < nA.length; i++) {
+                                    nS = nS + nA[i];
+                                }
+                                var nN = new Number(nS);
+                                return (nN >= 0 && nN <= 999999) ? true : false;
+                            }
+                        }
+
+                    },
+                    "alertText": "The value should be between 0 and 9,999.99 or between 0 and 999,999"
+                },
+                "number2CAN": {
+                    // Number, including positive, negative, and floating decimal. credit: orefalo
+                    "regex": /^[\-\+]?((([0-9]{1,3})([,][0-9]{3})*)|([0-9]+))?([\.]([0-9]+))?$/,
+                    "alertText": "* Invalid decimal number"
+                },
                 "byte": {
                     "regex": /^(0|(\+)?([1-9]{1}[0-9]{0,1}|[1]{1}[0-9]{0,2}|[2]{1}([0-4]{1}[0-9]{1}|[5]{1}[0-5]{1})))$/,
                     "alertText": "* The value should be between 0 and 255"
