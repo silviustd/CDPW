@@ -207,10 +207,11 @@ namespace CDPW
             }
             catch (Exception ex)
             {
-                string strError = string.Format("There was an error:<br /> {0}<br />", ex.Message);
+                //string strError = string.Format("There was an error:<br /> {0}<br />", ex.Message);
+                String strError = CDPWMessages.ERR_MSG_ERR;
                 lblMesaj.Text = strError;
-                lblMesaj.CssClass = "msg_box msg_error corners";
-                lblLogOut.Text = "Please <a href='cdplogout.aspx'> Log Out</a>  and Log in again.<br/>If the problem persists please <A HREF='mailto:office@columnasoft.com?subject='" + _Subject + "'>email us</A> with your Name, Address, Email and Plan";
+                lblMesaj.CssClass = "msg_box msg_error corners msg_box_text14";
+                lblLogOut.Text = String.Format(CDPWMessages.ERR_MSG_LOGOUT_LOGIN_EMAIL, _Subject); 
                 btnUnsub.Visible = false;
                 lblLogOut.Visible = true;
                 if (log.IsErrorEnabled) log.Error(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Error", ex);

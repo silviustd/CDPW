@@ -165,7 +165,7 @@ $(document).ready(function () {
         $(this).hide();
         $("#main-1").removeClass("main-1-message");
         $(".span50").hide();
-        
+
     });
 
     $("#DCAN").colorbox();

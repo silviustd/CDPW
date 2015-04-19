@@ -29,11 +29,11 @@ namespace CDPW
                             if (!WAppUserActivated)
                             {
                                 CDPW.DAL.Users.UserAccount_Confirm(email);
-                                ltrSignupSuccess.Text = CDPWMessages.ACCOUNT_ACTIVATED;
+                                ltrSignupSuccess.Text = CDPWMessages.MSG_ACCOUNT_ACTIVATED;
                             }
                             else
                             {
-                                ltrSignupSuccess.Text = CDPWMessages.ACCOUNT_ALREADY_ACTIVATED;
+                                ltrSignupSuccess.Text = CDPWMessages.MSG_ACCOUNT_ALREADY_ACTIVATED;
                             }
                             phSuccess.Visible = true;
                             phMailIncorrect.Visible = false;

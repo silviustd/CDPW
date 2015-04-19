@@ -12,7 +12,7 @@
                 </p>
             </asp:PlaceHolder>
             <asp:PlaceHolder ID="phError" runat="server" Visible="false">
-                <p class="msg_box msg_error corners">
+                <p id="pError" class="msg_box msg_error corners">
                     <asp:Literal ID="ltrError" runat="server" /></p>
             </asp:PlaceHolder>
             <asp:PlaceHolder ID="phReproduction" runat="server" Visible="true">

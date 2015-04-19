@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Web.UI.WebControls;
+using CDPW.BLL;
 
 namespace CDPW.components
 {
@@ -9,7 +10,7 @@ namespace CDPW.components
         {
             ph.Visible = show;
             //string strError = string.Format("Mesaj: {0}<br />Data: {4}<br />Exceptie: {1}<br />Sursa: {2}<br />StackTrace: {3}", ex.Message, ex.InnerException, ex.Source, ex.StackTrace, ex.Data);
-            string strError = string.Format("There was an error:<br /> {0}", ex.Message);
+            String strError = CDPWMessages.ERR_MSG_ERR;
             ltr.Text = strError;
             if (doHide) { toHide.Visible = false; }
 

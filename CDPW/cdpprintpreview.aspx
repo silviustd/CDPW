@@ -13,7 +13,7 @@
 
     <asp:PlaceHolder ID="phError" runat="server" Visible="false">
         <span class="span50"></span>
-        <p class="msg_box msg_error corners">
+        <p id="pError" class="msg_box msg_error corners">
             <asp:Literal ID="ltrError" runat="server" Text="Sorry, an error has occured. Please try again." />
         </p>
     </asp:PlaceHolder>

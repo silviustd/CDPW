@@ -24,14 +24,8 @@
             Text="There has been a problem verifying your credentials.Please email us at info@columnasoft.com"> 
         </asp:Label>
     </asp:PlaceHolder>
-    <asp:PlaceHolder ID="phLoginUserNoActive" runat="server" Visible="false"><span class="span50">
-    </span>
-        <p class="msg_box msg_alert corners msg_box_text14">
-            <asp:Literal ID="ltrLoginUserNoActive" Text="The account is not activated. Please see your email account for the activation message."
-                runat="server" />
-        </p>
-    </asp:PlaceHolder>
-    <asp:PlaceHolder ID="phLoginUserNoExist" runat="server" Visible="false"><span class="span50">
+
+<%--    <asp:PlaceHolder ID="phLoginUserNoExist" runat="server" Visible="false"><span class="span50">
     </span>
         <p class="msg_box msg_alert corners bold msg_box_text14">
             <asp:Literal ID="ltrLoginUserNoExist" Text="Sorry, there is no user  with the email address/username provided. In order to access the application, please Sign-Up by using <I don't have an account>."
@@ -44,15 +38,15 @@
             <asp:Literal ID="ltrLoginPasswordWrong" Text="Sorry, there password you provided is not the correct one. If you forgot your password, try to recover here (link)."
                 runat="server" />
         </p>
-    </asp:PlaceHolder>
-    <asp:PlaceHolder ID="phSignupUserExists" runat="server" Visible="false"><span class="span50">
+    </asp:PlaceHolder>--%>
+<%--    <asp:PlaceHolder ID="phSignupUserExists" runat="server" Visible="false"><span class="span50">
     </span>
         <p class="msg_box msg_alert corners msg_box_text14">
             <asp:Literal ID="ltrSignupUserExists" Text="Sorry, there is another user registered with the same username. Try to login (link) or, if you forgot your password, try to recover here (link)."
                 runat="server" />
         </p>
-    </asp:PlaceHolder>
-    <asp:PlaceHolder ID="phSignupEmailExists" runat="server" Visible="false"><span class="span50">
+    </asp:PlaceHolder>--%>
+<%--    <asp:PlaceHolder ID="phSignupEmailExists" runat="server" Visible="false"><span class="span50">
     </span>
         <p class="msg_box msg_alert corners msg_box_text14">
             <asp:Literal ID="ltrSignupEmailExists" Text="Sorry, there is another user registered with the same email address."
@@ -63,14 +57,16 @@
             <asp:Literal ID="ltrSignupEmailExists2" Text="Try to login (link) or, if you forgot your password, try to recover here (link)."
                 runat="server" />
         </p>
-    </asp:PlaceHolder>
-    <asp:PlaceHolder ID="phSignupSuccess" runat="server" Visible="false"><span class="span50">
+    </asp:PlaceHolder>--%>
+
+<%--    <asp:PlaceHolder ID="phSignupSuccess" runat="server" Visible="false"><span class="span50">
     </span>
         <p class="msg_box msg_ok corners msg_box_text14">
             <asp:Literal ID="ltrSignupSuccess" Text="The sign up process completed with success. A confirmation message was sent to the email address provided"
                 runat="server" />
         </p>
-    </asp:PlaceHolder>
+    </asp:PlaceHolder>--%>
+
     <asp:PlaceHolder ID="phSignUpGoback" runat="server" Visible="false"><span class="30">
     </span>
         <div style="text-align: center;">
@@ -78,7 +74,7 @@
         </div>
     </asp:PlaceHolder>
     <asp:PlaceHolder ID="phError" runat="server" Visible="false"><span class="span50"></span>
-        <p class="msg_box msg_error corners msg_box_text14">
+        <p id="pError" class="msg_box msg_error corners msg_box_text14">
             <asp:Literal ID="ltrError" Text="Sorry, an error has occured. Please try again."
                 runat="server" />
         </p>
@@ -174,8 +170,7 @@
     </div>
     <script type="text/javascript">
 
-        if (document.getElementById("ltrLoginMessages") != null || document.getElementById("ltrSignupSuccess") != null) {
-            //$("#divMessages > div").size()
+        if (document.getElementById("ltrLoginMessages") != null || document.getElementById("pError") != null || $(".msg_box").size() > 0) {
             document.getElementById("main-1").className += " main-1-message";
         }
 

@@ -910,7 +910,7 @@ a:focus {
 .corners {-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
 .span50 {display:block; padding-bottom: 50px;}
 .span30 {display:block; padding-bottom: 30px;}
-.msg_box {display: block; margin:0 auto;width:400px; padding:8px 20px 8px 46px;margin-top:10px;margin-bottom:10px;position:relative;color:#444;overflow:hidden;text-align:left;}
+.msg_box {display: block; margin:0 auto;width:400px; padding:8px 20px 8px 46px;margin-top:10px;margin-bottom:10px;position:relative;color:#444;overflow:hidden;text-align:left;min-height:34px;}
 .msg_box_login {display: block; margin:0 auto;width:652px; padding:8px 20px 8px 46px;margin-top:10px;margin-bottom:10px;position:relative;color:#444;overflow:hidden;text-align:left;}
 .msg_box_text {	font-family: Arial, Helvetica, sans-serif; font-size: 15px; }
 .msg_box_text14 {	font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: rgb(48, 48, 48);}

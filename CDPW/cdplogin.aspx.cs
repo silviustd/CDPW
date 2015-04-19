@@ -35,14 +35,13 @@ namespace CDPW
                 if (CDPW.DAL.Users.Check_Username(txtSignUName.Text) == true)
                 {
                     phLoginMessages.Visible = true;
-                    ltrLoginMessages.Text = CDPWMessages.SAME_USERNAME;
+                    ltrLoginMessages.Text = CDPWMessages.ERR_SAME_USERNAME;
                     //ltrLoginMessages.CssClass = "msg_box msg_info corners";
-                    
                 }
                 else if (CDPW.DAL.Users.Check_Email(txtSignEmail.Text) == true)
                 {
                     phLoginMessages.Visible = true;
-                    ltrLoginMessages.Text = CDPWMessages.SAME_EMAIL;
+                    ltrLoginMessages.Text = CDPWMessages.ERR_SAME_EMAIL;
                     //ltrLoginMessages.CssClass = "msg_box msg_info corners";
                 }
                 else
@@ -64,15 +63,17 @@ namespace CDPW
 
                         tran.Complete();
 
-                        phSignupSuccess.Visible = true;
-                        phSignupEmailExists.Visible = false;
-                        phSignupUserExists.Visible = false;
+                        phLoginMessages.Visible = true;
+                        ltrLoginMessages.Text = CDPWMessages.MSG_SIGN_UP_S;
+                        ltrLoginMessages.CssClass = "msg_box msg_ok corners msg_box_text14";
+
                     }
                 }
             }
             catch (Exception ex)
             {
                 //phLoginSignUp.Visible = false;
+                Helpers.HideMessages(this, false);
                 components.Error_Show.Show(phError, true, ltrError, ex, phLoginSignUp, false);
                 if (log.IsErrorEnabled) log.Error(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Error", ex);
             }
@@ -93,33 +94,23 @@ namespace CDPW
                 if (ds.Tables[0].Rows.Count > 0)
                 {
                     // User not activated
-                    //phLoginUserNoActive.Visible = true;
-                    phLoginPasswordWrong.Visible = false;
-                    phLoginUserNoExist.Visible = false;
-                    //phLoginSignUp.Visible = false;
                     phLoginMessages.Visible = true;
-                    ltrLoginMessages.Text = CDPWMessages.ACCT_NOT_ACTIVE;
-                    ltrLoginMessages.CssClass = "msg_box msg_alert corners";
+                    ltrLoginMessages.Text = CDPWMessages.MSG_ACCT_NOT_ACTIVE;
+                    ltrLoginMessages.CssClass = "msg_box msg_alert corners msg_box_text14";
                 }
                 else if (ds.Tables[1].Rows.Count < 1)
                 {
                     // User doesn't exist
-                    //phLoginUserNoExist.Visible = true;
-                    //phSignUpGoback.Visible = true;
-                    //phLoginSignUp.Visible = false;
                     phLoginMessages.Visible = true;
-                    ltrLoginMessages.Text = CDPWMessages.NO_USER;
-                    ltrLoginMessages.CssClass = "msg_box msg_alert corners";
+                    ltrLoginMessages.Text = CDPWMessages.ERR_NO_USER;
+                    ltrLoginMessages.CssClass = "msg_box msg_alert corners msg_box_text14";
                 }
                 else if (ds.Tables[2].Rows.Count < 1)
                 {
-                    //phLoginPasswordWrong.Visible = true;
-                    phLoginUserNoActive.Visible = false;
-                    phLoginUserNoExist.Visible = false;
-                    //phLoginSignUp.Visible = false;
+
                     phLoginMessages.Visible = true;
-                    ltrLoginMessages.Text = CDPWMessages.WRONG_PWD;
-                    ltrLoginMessages.CssClass = "msg_box msg_alert corners";
+                    ltrLoginMessages.Text = CDPWMessages.ERR_WRONG_PWD;
+                    ltrLoginMessages.CssClass = "msg_box msg_alert corners msg_box_text14";
 
                 }
                 else
