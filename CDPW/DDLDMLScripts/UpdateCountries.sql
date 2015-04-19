@@ -1,0 +1,1 @@
+UPDATE Countries SET [CountryCodeA3_9] = [CountryCodeA3]

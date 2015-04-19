@@ -799,4 +799,9 @@ a.open-1, a.open-2 {
 .hidden {
 	display: none;
 }
+
+.textAlignRight 
+{
+    text-align:right;    
+}
 /* mainSettings> */

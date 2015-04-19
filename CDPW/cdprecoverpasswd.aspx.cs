@@ -59,10 +59,9 @@ namespace CDPW
                                         // Change password in database
                                         Users.Password_Reset(emailToReset, newPasswd);
 
-                                        //string emailTemplate = Template.readTemplate("[email_address]\\[new_password]", emailToReset + "\\" + newPasswd, HttpContext.Current.Server.MapPath("components/reset_password.html"));
                                         string emailTemplate = Template.readTemplate("[email_address]\\[new_password]", uName + "\\" + newPasswd, HttpContext.Current.Server.MapPath("components/reset_password.html"));
 
-                                        Mail.Send(emailToReset, null, null, "CDP - New password to access your account", emailTemplate, System.Net.Mail.MailPriority.Normal);
+                                        Mail.Send(emailToReset, null, null, CDPWMessages.EMAIL_SUBJECT_NEW_PASSWORD, emailTemplate, System.Net.Mail.MailPriority.Normal);
 
                                         phFormRecoverPasswd.Visible = false;
                                         phResetPasswd.Visible = true;
@@ -129,7 +128,7 @@ namespace CDPW
 
                     //string emailTemplate = Template.readTemplate("[email_address]\\[reset_link]", email + "\\" + url, HttpContext.Current.Server.MapPath("components/recover_passwd.html"));
                     string emailTemplate = Template.readTemplate("[email_address]\\[reset_link]", uName + "\\" + url, HttpContext.Current.Server.MapPath("components/recover_passwd.html"));
-                    Mail.Send(email, null, null, "CDP - Reset your password request", emailTemplate, System.Net.Mail.MailPriority.Normal);
+                    Mail.Send(email, null, null, CDPWMessages.EMAIL_SUBJECT_RESET_PWD, emailTemplate, System.Net.Mail.MailPriority.Normal);
 
                     //ltrRecoverSuccess.Text += "<br /><br />Mesaj: <br />" + emailTemplate;
                     //ltrRecoverSuccess.Text += "<br /><br />URL: " + url;

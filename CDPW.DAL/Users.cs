@@ -141,6 +141,37 @@ namespace CDPW.DAL
                 return emailExists;
             }
 
+            public static bool Check_Email(string email,out bool EmailActivated)
+            {
+                if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Enter");
+                
+                bool emailExists = false;
+                EmailActivated = false;
+
+                using (SqlConnection dbConnection = new SqlConnection(DBConnection.ConnectionString))
+                {
+                    SqlCommand cmd = new SqlCommand("WAppsUser_Add", dbConnection);
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    // Add parameters to SPROC
+                    cmd.Parameters.Add("@Action", SqlDbType.TinyInt).Value = 1;
+                    cmd.Parameters.Add("@useremail", SqlDbType.NVarChar, 50).Value = email;
+
+                    dbConnection.Open();
+
+                    SqlDataReader drEmail = cmd.ExecuteReader();
+                    while (drEmail.Read())
+                    {
+                        emailExists = true;
+                        EmailActivated = String.IsNullOrWhiteSpace(TextUtils.ReturnFromDB(drEmail["BeginDate"].ToString())) ? false : true;
+                    }
+
+                    drEmail.Close();
+                }
+                if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Exit");
+                return emailExists;
+            }
+
 
             // Add user in database
             /// <summary>

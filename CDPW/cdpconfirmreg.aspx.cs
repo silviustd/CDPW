@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using CDPW.BLL;
 
 namespace CDPW
 {
@@ -12,6 +13,9 @@ namespace CDPW
         protected void Page_Load(object sender, EventArgs e)
         {
             if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Enter");
+
+            Boolean WAppUserActivated = false;
+
             try
             {
                 if (!string.IsNullOrEmpty(Request.QueryString["sg"]))
@@ -20,9 +24,17 @@ namespace CDPW
 
                     if (!string.IsNullOrEmpty(email))
                     {
-                        if (CDPW.DAL.Users.Check_Email(email))
+                        if (CDPW.DAL.Users.Check_Email(email, out WAppUserActivated))
                         {
-                            CDPW.DAL.Users.UserAccount_Confirm(email);
+                            if (!WAppUserActivated)
+                            {
+                                CDPW.DAL.Users.UserAccount_Confirm(email);
+                                ltrSignupSuccess.Text = CDPWMessages.ACCOUNT_ACTIVATED;
+                            }
+                            else
+                            {
+                                ltrSignupSuccess.Text = CDPWMessages.ACCOUNT_ALREADY_ACTIVATED;
+                            }
                             phSuccess.Visible = true;
                             phMailIncorrect.Visible = false;
                             phURLIncorrect.Visible = false;

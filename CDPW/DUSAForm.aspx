@@ -365,8 +365,8 @@
                                 Text="<strong>Residents</strong> - the <strong>total value of all goods</strong>, including commercial merchandise I/we have purchased or acquired abroad, (including gifts for someone else, but not items mailed to the U.S.) and  am/are bringing to the U.S. is:"></asp:Label>
                         </td>
                         <td colspan="2" class="right">
-                            <asp:TextBox ID="txtResTotValGoods" runat="server" CssClass="text text-5 validate[funcCall[numValF]]"
-                                original-title="######.#### (<6 digits>.<4 digits>)" MaxLength="12" AutoPostBack="False"
+                            <asp:TextBox ID="txtResTotValGoods" runat="server" CssClass="text text-5 textAlignRight validate[custom[money2USA]] validate[custom[number2CAN]]"
+                                original-title="####[.]## (<9 digits>.<2 digits>)" MaxLength="12" AutoPostBack="False"
                                 onchange="javascript:ChangeAlert();"></asp:TextBox>
                         </td>
                     </tr>
@@ -379,8 +379,8 @@
                                 Text="<strong>Visitors</strong> - the <strong>total value of all articles</strong> that will remain in the U.S., including commercial merchandise is:"></asp:Label>
                         </td>
                         <td colspan="2" class="right">
-                            <asp:TextBox ID="txtVisTotValGoods" runat="server" class="text text-5 validate[funcCall[numValF]]"
-                                original-title="######.#### (<6 digits>.<4 digits>)" MaxLength="12" AutoPostBack="False"
+                            <asp:TextBox ID="txtVisTotValGoods" runat="server" class="text text-5 textAlignRight validate[custom[money2USA]] validate[custom[number2CAN]]"
+                                original-title="####[.]## (<9 digits>.<2 digits>)" MaxLength="12" AutoPostBack="False"
                                 onchange="javascript:ChangeAlert();"></asp:TextBox>
                         </td>
                     </tr>
@@ -431,8 +431,8 @@
                                 MaxLength="37" AutoPostBack="False" onchange="javascript:ChangeAlert();" />
                         </td>
                         <td>
-                            <asp:TextBox ID="txtArticlesValue1" runat="server" class="text-10 validate[funcCall[numVal]]"
-                                original-title="######.#### (<6 digits>.<4 digits>)" MaxLength="12" AutoPostBack="False" />
+                            <asp:TextBox ID="txtArticlesValue1" runat="server" class="text-10 textAlignRight validate[custom[money2USA]] validate[custom[number2CAN]]"
+                                original-title="####[.]## (<9 digits>.<2 digits>)" MaxLength="12" AutoPostBack="False" />
                         </td>
                         <td rowspan="7">
                             <asp:TextBox ID="TextBox21" runat="server" class="text-11" disabled original-title="US CBP Use Only"
@@ -445,8 +445,8 @@
                                 MaxLength="37" AutoPostBack="False" onchange="javascript:ChangeAlert();" />
                         </td>
                         <td>
-                            <asp:TextBox ID="txtArticlesValue2" runat="server" class="text-10 validate[funcCall[numVal]]"
-                                original-title="######.#### (<6 digits>.<4 digits>)" MaxLength="12" AutoPostBack="False"
+                            <asp:TextBox ID="txtArticlesValue2" runat="server" class="text-10 textAlignRight validate[custom[money2USA]] validate[custom[number2CAN]]"
+                                original-title="####[.]## (<9 digits>.<2 digits>)" MaxLength="12" AutoPostBack="False"
                                 onchange="javascript:ChangeAlert();" />
                         </td>
                     </tr>
@@ -456,19 +456,19 @@
                                 MaxLength="37" AutoPostBack="False" onchange="javascript:ChangeAlert();" />
                         </td>
                         <td>
-                            <asp:TextBox ID="txtArticlesValue3" runat="server" class="text-10 validate[funcCall[numVal]]"
-                                original-title="######.#### (<6 digits>.<4 digits>)" MaxLength="12" AutoPostBack="False"
+                            <asp:TextBox ID="txtArticlesValue3" runat="server" class="text-10 textAlignRight validate[custom[money2USA]] validate[custom[number2CAN]]"
+                                original-title="####[.]## (<9 digits>.<2 digits>)" MaxLength="12" AutoPostBack="False"
                                 onchange="javascript:ChangeAlert();" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <asp:TextBox ID="txtDescrArticles4" runat="server" class="text text-7" original-title="37 characters"
+                            <asp:TextBox ID="txtDescrArticles4" runat="server" class="text  text-7" original-title="37 characters"
                                 MaxLength="37" AutoPostBack="False" onchange="javascript:ChangeAlert();" />
                         </td>
                         <td>
-                            <asp:TextBox ID="txtArticlesValue4" runat="server" class="text-10 validate[funcCall[numVal]]"
-                                original-title="######.#### (<6 digits>.<4 digits>)" MaxLength="12" AutoPostBack="False"
+                            <asp:TextBox ID="txtArticlesValue4" runat="server" class="text-10 textAlignRight validate[custom[money2USA]] validate[custom[number2CAN]]"
+                                original-title="####[.]## (<9 digits>.<2 digits>)" MaxLength="12" AutoPostBack="False"
                                 onchange="javascript:ChangeAlert();" />
                         </td>
                     </tr>
@@ -478,8 +478,8 @@
                                 MaxLength="37" AutoPostBack="False" onchange="javascript:ChangeAlert();" />
                         </td>
                         <td>
-                            <asp:TextBox ID="txtArticlesValue5" runat="server" class="text-10 validate[funcCall[numVal]]"
-                                original-title="######.#### (<6 digits>.<4 digits>)" MaxLength="12" AutoPostBack="False"
+                            <asp:TextBox ID="txtArticlesValue5" runat="server" class="text-10 textAlignRight validate[custom[money2USA]] validate[custom[number2CAN]]"
+                                original-title="####[.]## (<9 digits>.<2 digits>)" MaxLength="12" AutoPostBack="False"
                                 onchange="javascript:ChangeAlert();" />
                         </td>
                     </tr>
@@ -489,8 +489,8 @@
                                 MaxLength="37" AutoPostBack="False" onchange="javascript:ChangeAlert();" />
                         </td>
                         <td>
-                            <asp:TextBox ID="txtArticlesValue6" runat="server" class="text-10 validate[funcCall[numVal]]"
-                                original-title="######.#### (<6 digits>.<4 digits>)" MaxLength="12" AutoPostBack="False"
+                            <asp:TextBox ID="txtArticlesValue6" runat="server" class="text-10 textAlignRight validate[custom[money2USA]] validate[custom[number2CAN]]"
+                                original-title="####[.]## (<9 digits>.<2 digits>)" MaxLength="12" AutoPostBack="False"
                                 onchange="javascript:ChangeAlert();" />
                         </td>
                     </tr>
@@ -499,8 +499,8 @@
                             Total
                         </td>
                         <td colspan="2">
-                            <asp:TextBox ID="txtTotalValArticles" runat="server" disabled class="text-10 validate[custom[number]]"
-                                original-title="######.#### (<6 digits>.<4 digits>)" AutoPostBack="False" onchange="javascript:ChangeAlert();"
+                            <asp:TextBox ID="txtTotalValArticles" runat="server" disabled class="text-10 textAlignRight validate[custom[money2USA]] validate[custom[number2CAN]]"
+                                original-title="####[.]## (<9 digits>.<2 digits>)" AutoPostBack="False" onchange="javascript:ChangeAlert();"
                                 Width="205"></asp:TextBox>
                         </td>
                     </tr>

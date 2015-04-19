@@ -30,5 +30,27 @@ namespace CDPW.BLL
             if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Exit");
             return message;
         }
+
+        public static string readTemplateD(string paramsToReplace, string textToReplaceWith, string templatePath)
+        {
+            if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Enter");
+            string message = "";
+            string[] paramsToReplace2 = paramsToReplace.Split('\\');
+            string[] textToReplaceWith2 = textToReplaceWith.Split('\\');
+
+            bool fileExists = System.IO.File.Exists(templatePath);
+
+            if (fileExists)
+            {
+                message = File.ReadAllText(templatePath);
+                for (int i = 0; i < paramsToReplace2.Length; i++)
+                {
+                    message = message.Replace(paramsToReplace2[i], textToReplaceWith2[i]);
+                }
+            }
+            if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Exit");
+            return message;
+        }
+
     }
 }

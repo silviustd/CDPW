@@ -95,6 +95,11 @@
                     "regex": /^[\-\+]?((([0-9]{1,3})([,][0-9]{3})*)|([0-9]+))?([\.]([0-9]+))?$/,
                     "alertText": "* Invalid floating decimal number"
                 },
+                "number2CAN": {
+                    // Number, including positive, negative, and floating decimal. credit: orefalo
+                    "regex": /^[\-\+]?((([0-9]{1,3})([,][0-9]{3})*)|([0-9]+))?([\.]([0-9]+))?$/,
+                    "alertText": "* Invalid decimal number"
+                },
                 "date3": {
                     //	Check if date is valid by leap year
                     "func": function (field) {
@@ -176,7 +181,7 @@
                     },
                     "alertText": "The value should be between 0 and 214,748.3647"
                 },
-                "money2CAN": {
+                "money2USA": {
                     "func": function (field) {
 
                         var decp = field.val().indexOf(".");
@@ -200,29 +205,19 @@
                         }
                         else {
                             //decimal
-                            if (decp2 >= 0) {
 
-                                var nA = field.val().split(",");
-                                var nS = "";
-                                for (i = 0; i < nA.length; i++) {
-                                    nS = nS + nA[i];
-                                }
-                                var nN = new Number(nS);
-                                return (nN >= 0 && nN <= 9999.99) ? true : false;
+                            var nA = field.val().split(",");
+                            var nS = "";
+                            for (i = 0; i < nA.length; i++) {
+                                nS = nS + nA[i];
                             }
-                            else {
-                                var nA = field.val().split(",");
-                                var nS = "";
-                                for (i = 0; i < nA.length; i++) {
-                                    nS = nS + nA[i];
-                                }
-                                var nN = new Number(nS);
-                                return (nN >= 0 && nN <= 999999) ? true : false;
-                            }
+                            var nN = new Number(nS);
+                            return (nN >= 0 && nN <= 9999999.99) ? true : false;
+
                         }
 
                     },
-                    "alertText": "The value should be between 0 and 9,999.99 or between 0 and 999,999"
+                    "alertText": "The value should be between 0 and 9,999.99"
                 },
                 "number2CAN": {
                     // Number, including positive, negative, and floating decimal. credit: orefalo

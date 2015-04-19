@@ -104,6 +104,7 @@
     <Content Include="cdprecoverpasswd.aspx" />
     <Content Include="cdpselectpay.aspx" />
     <Content Include="cdpselecttest.aspx" />
+    <Content Include="components\signup.html" />
     <Content Include="components\recover_passwd.html" />
     <Content Include="components\reset_password.html" />
     <Content Include="components\_ppButtonsCBSAPlan.txt" />
@@ -184,6 +185,7 @@
     <Content Include="theme\clasic\images\usa-header.jpg" />
     <Content Include="theme\clasic\images\usa-header.png" />
     <Content Include="theme\clasic\jquery-ui-1.8.23.custom.css" />
+    <None Include="theme\clasic\js\Copy of jquery.validationEngine-en.jjs" />
     <Content Include="theme\clasic\js\functions.js" />
     <Content Include="theme\clasic\js\jquery-ui-1.8.23.custom.min.js" />
     <Content Include="theme\clasic\js\jquery.colorbox.js" />
@@ -377,6 +379,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
+    <Folder Include="DDLDMLScripts\" />
     <Folder Include="libs\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

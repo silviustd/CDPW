@@ -1,0 +1,8 @@
+CDP_Dev_DDL_Tables.sql
+CDP_Dev_DDL_UDF.sql
+CDP_Dev_DDL_SP.sql
+seed_data.sql
+INSERT_Table_Countries.sql
+INSERT_Table_AdministrativeRegions.sql
+INSERT_Table_TablesToDelete.sql
+UpdateCountries.sql

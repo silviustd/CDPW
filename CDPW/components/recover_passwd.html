@@ -1,22 +1,164 @@
-﻿<p style="font-family:Arial; font-size:12px;">
-    Hello [email_address],
-</p>
-<p style="font-family: Arial; font-size: 12px;">
-    It looks like you asked to reset your password! Do you still want to create a new password for your Custom Declaration Printing account?
-    <br />
-    <br />
-    Note that confirmation string expires in approximately 3 days.
-    <br />
-    <br />
-</p>
-<p style="font-family: Arial; font-size: 12px;">
-    [reset_link]
-    <br />
-</p>
-<p style="font-family: Arial; font-size: 12px;">
-    If you didn't submit this request or don't want to reset your password, please ignore this email. We won't reset your password.
-    <br /><br />
-</p>
-<p style="font-family: Arial; font-size: 12px;">
-    - Columna Soft Team
-</p>
+﻿<style>
+    #header-container
+    {
+        background-color: #2e2e2e;
+        height: 80px;
+    }
+    h1
+    {
+        color: maroon;
+        margin-left: 40px;
+    }
+    
+    #header
+    {
+        position: relative;
+        margin: 0 auto;
+        width: 940px;
+        height: 80px;
+        font-family: Arial;
+    }
+    
+    #header h1
+    {
+        position: absolute;
+        top: 16px;
+        right: 10px;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+    }
+    
+    #header ul
+    {
+        position: absolute;
+        list-style-type: none;
+        top: 55px;
+        right: 12px;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    
+    #header ul li.translate
+    {
+        position: relative;
+        float: right;
+        color: #00a8f3;
+    }
+    
+    #header ul li
+    {
+        float: left;
+        display: inline-block;
+        height: 13px;
+        color: #fff;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #my-settings
+    {
+        background: url(http://columnasoft.com/cdpw/theme/clasic/images/my-settings-icon.png) 100% 100% no-repeat;
+    }
+    
+    #custom-forms
+    {
+        background: url(http://columnasoft.com/cdpw/theme/clasic/images/custom-forms-icon.png) 100% 100% no-repeat;
+    }
+    
+    #logout
+    {
+        background: url(http://columnasoft.com/cdpw/theme/clasic/images/logout-icon.png) 100% 100% no-repeat;
+    }
+    
+    .style1
+    {
+        width: 100%;
+    }
+    
+    .msg_border {
+        border-color: #A8A8A8;
+    }
+    
+</style>
+<table width="100%"  border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr style="background-color: rgb(46, 46, 46);height:80px;">
+        <td width="100%" style="padding-right: 35px; padding-left: 35px;">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td rowspan="2" style="width:50%;padding-top:10px;" valign="top">
+                    
+                        <a href="http://columnasoft.com/"> </a>
+                        <img width="273px" height="47px" alt="" src="http://columnasoft.com/cdpw/theme/clasic/images/columna-soft-logo.png" /></td>
+                    <td align="right" style="padding-top: 5px;">
+                        <span style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 28px;display:inline-block;padding:0px;">
+                            <a style="color: #fff; text-decoration: none;" href="https://www.columnasoft.com/cdpw/cdplogout.aspx">
+                                     Customs Declaration Printing</a></span> <span style="display:inline-block;color: #ffffff; font-family: Arial, Helvetica, sans-serif;
+                                font-size: 16px;" id="Span1">(beta)</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" style="padding-bottom: 10px;width:50%;padding-top:4px;">
+                        <ul>
+                            <li style="list-style: none;  float: right;display: inline-block; height: 13px;
+                                color: #00a8f3; margin-left: 10px; padding-right: 10px;font-family: Arial, Helvetica, sans-serif; font-size: 12px;">
+                                <a style="color: #00a8f3;text-decoration: none;" href="">
+                                    <img alt="" src="http://columnasoft.com/cdpw/theme/clasic/images/translate_w_email.png" /></a>
+                            </li>
+                            <li id="Li3" style="list-style: none; float: right; display: inline-block; height: 13px;
+                                color: #fff; margin-left: 10px; padding-right: 10px; font-family: Arial, Helvetica, sans-serif;
+                                font-size: 12px; font-weight: bold;">
+                                <a style="color: #fff; text-decoration: none;" href="https://www.columnasoft.com/cdpw/cdplogout.aspx">
+                                    <img alt="" src="http://columnasoft.com/cdpw/theme/clasic/images/logout_w_email.png" /></a></li>
+                            <li id="Li2" style="list-style: none; float: right; display: inline-block; height: 13px;
+                                color: #fff; margin-left: 10px; padding-right: 10px; font-family: Arial, Helvetica, sans-serif;
+                                font-size: 12px; font-weight: bold;">
+                                <a style="color: #fff; text-decoration: none;" href="https://www.columnasoft.com/cdpw/cdpselectpay.aspx">
+                                    <img alt="" src="http://columnasoft.com/cdpw/theme/clasic/images/customs-forms_w_email.png" /></a></li>
+                            <li id="Li1" style="align-items: center;list-style: none; float: right; display: inline-block; height: 13px;
+                                color: #fff; margin-left: 10px; padding-right: 10px; font-family: Arial, Helvetica, sans-serif;
+                                font-size: 12px; font-weight: bold;">
+                                <a style="color: #fff; text-decoration: none;" href="https://www.columnasoft.com/cdpw/cdpmysettings.aspx">
+                                <img alt="" src="http://columnasoft.com/cdpw/theme/clasic/images/my-settings_w_email.png" />
+                                </a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 70px; font-family: Arial; font-size: 13px;" align="center">
+            <div style="text-align:center;width: 738px; margin-left: auto; margin-right: auto; padding: 20px;
+                padding-top: 20px; border-width: 4px; border-style: solid; border-color: #C0C0C0;
+                -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;">
+                <p style="text-align:left;">
+                    Hello [email_address],
+                </p>
+                <p>
+                    It looks like you asked to reset your password! Do you still want to create a new
+                    password for your Custom Declaration Printing account?
+                    <br />
+                    <br />
+                    Note that confirmation string expires in approximately 3 days.
+                    <br />
+                    
+                </p>
+                <p>
+                    <strong>[reset_link]</strong>
+                    <br />
+                </p>
+                <p>
+                    If you didn't submit this request or don't want to reset your password, please ignore
+                    this email. We won't reset your password.
+                    <br />
+                    <br />
+                </p>
+                <p>
+                    -- Columna Soft Team
+                </p>
+            </div>
+        </td>
+    </tr>
+</table>

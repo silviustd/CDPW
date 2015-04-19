@@ -16,17 +16,17 @@
     </asp:PlaceHolder>
     <asp:PlaceHolder ID="phSuccess" runat="server" Visible="false">
         <span class="span50"></span>
-        <p class="msg_box msg_ok corners">
+        <p class="msg_box msg_ok corners msg_box_text">
             <asp:Literal ID="ltrSignupSuccess" Text="Congratulations! You have activated your account." runat="server" />
         </p>
-        <span class="span50"></span>
-        <p class="msg_box msg_info corners">
+        <span class="span30"></span>
+        <p class="msg_box msg_info corners msg_box_text">
             To log in, click <a href="cdplogin.aspx">here</a>.
         </p>
     </asp:PlaceHolder>
     <asp:PlaceHolder ID="phError" runat="server" Visible="false">
         <span class="span50"></span>
-        <p class="msg_box msg_error corners">
+        <p class="msg_box msg_error corners msg_box_text">
             <asp:Literal ID="ltrError" Text="Sorry, an error has occured. Please try again." runat="server" />
         </p>
     </asp:PlaceHolder>

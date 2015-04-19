@@ -3,7 +3,11 @@
 
 
 //window.onunload = ConfirmDeleteData;
-///window.onbeforeunload = ConfirmDeleteData; 
+///window.onbeforeunload = ConfirmDeleteData;
+
+function HideMessage(ctrl) {
+    ctrl.hide();
+}
 
 function redirect() {
     var loc = location.href.split(':');
@@ -20,11 +24,11 @@ function ChangeAlert() {
 function IfPrint() {
     var purl = window.location.href;
     if (purl.indexOf("DUSAForm.aspx") > 0) {
-        if (!document.getElementById("opt1").checked && !document.getElementById("opt2").checked && 
-            !document.getElementById("opt11").checked && !document.getElementById("opt22").checked){
+        if (!document.getElementById("opt1").checked && !document.getElementById("opt2").checked &&
+            !document.getElementById("opt11").checked && !document.getElementById("opt22").checked) {
 
-                alert("Please select Page(s) to be printed");
-                return;
+            alert("Please select Page(s) to be printed");
+            return;
         }
     }
 
@@ -42,11 +46,11 @@ function ConfirmDeleteData() {
         //if (r == true) {
         //var sendserver = 'ifdeletedata';
         var sendserver = 'deletedata';
-            CallServer(sendserver, "");
+        CallServer(sendserver, "");
         //}
     }
 
-} 
+}
 
 
 
@@ -63,7 +67,7 @@ function ReceiveServerData(rValue) {
         //document.getElementById("discl_CAN").style = "disclaimer-4-update";
         $('#discl_CAN').addClass('disclaimer-4-update');
         document.getElementById("discl_CAN").innerHTML = '<span class="message-save">Please Save first, then Print</span>';
-        
+
     }
 
     if (rValue.toLowerCase() == "#1600") {
@@ -72,10 +76,10 @@ function ReceiveServerData(rValue) {
         document.getElementById("discl_USA").innerHTML = '<span class="message-save">Please Save first, then Print</span>';
     }
 
-    if (rValue.toLowerCase()=="msgdeletedata"){
+    if (rValue.toLowerCase() == "msgdeletedata") {
         var purl = window.location.href;
         if (purl.indexOf("DUSAForm.aspx") > 0 || purl.indexOf("DCANForm.aspx") > 0 || purl.indexOf("cdpprintpreview.aspx") > 0) {
-        var r = confirm("Do you want your data to be deleted ? The page will also be closed.");
+            var r = confirm("Do you want your data to be deleted ? The page will also be closed.");
             if (r == true) {
                 var sendserver = 'deletedata';
                 CallServer(sendserver, "");
@@ -111,14 +115,14 @@ function numValF(field, rules, i, options) {
 }
 
 function externalLinks() {
-	if (!document.getElementsByTagName) return;
-	var anchors = document.getElementsByTagName("a");
-	for (var i=0; i<anchors.length; i++) {
-		var anchor = anchors[i];
-		if (anchor.getAttribute("href") &&
+    if (!document.getElementsByTagName) return;
+    var anchors = document.getElementsByTagName("a");
+    for (var i = 0; i < anchors.length; i++) {
+        var anchor = anchors[i];
+        if (anchor.getAttribute("href") &&
 		anchor.getAttribute("rel") == "blank")
-		anchor.target = "_blank";
-		}
+            anchor.target = "_blank";
+    }
 }
 
 function esteData(txtDate) {
@@ -157,6 +161,13 @@ $(function () {
 
 $(document).ready(function () {
 
+    $(".msg_box").bind("click", function () {
+        $(this).hide();
+        $("#main-1").removeClass("main-1-message");
+        $(".span50").hide();
+        
+    });
+
     $("#DCAN").colorbox();
     $("#DUSA").colorbox();
 
@@ -177,7 +188,7 @@ $(document).ready(function () {
     $('a#close_translate').click(function () {
         $('#translate').css('display', 'none').fadeOut('slow');
         $('a#open-btn').removeClass('color-1').fadeIn('fast');
-    
+
     })
     /*$('a#close-btn').click(function () {
     $('#translate').css('display', 'none').fadeOut("slow");

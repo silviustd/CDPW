@@ -8,6 +8,11 @@
 	<meta name="description" content="" />
 	<meta http-equiv="content-language" content="en" />
 	<link href="theme/css.ashx" rel="stylesheet" type="text/css" />
+<%--    <link rel="stylesheet" type="text/css" href="theme/clasic/ie.css" />
+    <link rel="stylesheet" type="text/css" href="theme/clasic/main.css" />
+    <link rel="stylesheet" type="text/css" href="theme/clasic/reset.css" />
+    <link rel="stylesheet" type="text/css" href="theme/clasic/form.css" />
+    <link rel="stylesheet" type="text/css" href="theme/clasic/tipsy.css" />--%>
 	<%--<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="theme/clasic/ie.css" />
 	<![endif]-->--%>
@@ -40,9 +45,9 @@
 <form id="form1" runat="server">
 	<div id="header-container">
 		<div id="header">
-			<a href="cdplogin.aspx" id="logo">&nbsp;</a>
+			<a href="http://columnasoft.com/" id="logo">&nbsp;</a>
 			<h1>
-				Customs Declaration Printing</h1> <span id="beta">(beta)</span>
+				<a href="cdplogin.aspx" id="A2">Customs Declaration Printing</a></h1> <span id="beta">(beta)</span>
 			<ul>
                 <%--
 				<li id="save"><asp:HyperLink ID="hlSave" Text="Save" runat="server" Visible="false" /></li>

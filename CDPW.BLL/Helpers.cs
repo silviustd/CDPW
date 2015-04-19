@@ -78,5 +78,28 @@ namespace CDPW.BLL
             //return bRet; 
         }
 
+        public static void HideMessages(Page pg, Boolean bEn)
+        {
+            if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Enter");
+            //Boolean bRet = false;
+
+            ContentPlaceHolder phContainer = (ContentPlaceHolder)pg.Master.FindControl("cphMain");
+
+            if (phContainer != null)
+            {
+                foreach (Control ct in phContainer.Controls)
+                {
+                    if (ct is PlaceHolder && !ct.ID.Equals("phLoginSignUp"))
+                    {
+                        ((PlaceHolder)ct).Visible = bEn;
+                    }
+                }
+            }
+
+            //bRet = true; 
+            if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Exit");
+            //return bRet; 
+        }
+
     }
 }

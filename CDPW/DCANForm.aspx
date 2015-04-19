@@ -466,7 +466,7 @@
                                 <asp:TextBox ID="txtDtC1" runat="server" class="text validate[custom[date-YYYY-MM-DD]" AutoPostBack="False"  MaxLength="10" onchange="javascript:ChangeAlert();" original-title="YYYY-MM-DD"></asp:TextBox>
                             </td>
                             <td>
-                                <asp:TextBox ID="txtCVG1" runat="server" class="text text-2 validate[funcCall[numValF]]" MaxLength="12" original-title="######.#### (<6 digits>.<4 digits>)" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
+                                <asp:TextBox ID="txtCVG1" runat="server" class="text text-2 textAlignRight validate[custom[money2CAN]] validate[custom[number2CAN]]" MaxLength="8" original-title="####[.]## (<6 digits> or <4 digits>.<2 digits>)" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
                             </td>
                             <td class="td-1">
                                 3
@@ -475,7 +475,7 @@
                                 <asp:TextBox ID="txtDtC3" runat="server" class="text validate[custom[date-YYYY-MM-DD]" original-title="YYYY-MM-DD" MaxLength="10" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
                             </td>
                             <td>
-                                <asp:TextBox ID="txtCVG3" runat="server" class="text text-2 validate[funcCall[numValF]]" MaxLength="12" original-title="######.#### (<6 digits>.<4 digits>)" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
+                                <asp:TextBox ID="txtCVG3" runat="server" class="text text-2 textAlignRight validate[custom[money2CAN]] validate[custom[number2CAN]]" MaxLength="8" original-title="####[.]## (<6 digits> or <4 digits>.<2 digits>)" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
@@ -486,7 +486,7 @@
                                 <asp:TextBox ID="txtDtC2" runat="server" class="text validate[custom[date-YYYY-MM-DD]" original-title="YYYY-MM-DD" MaxLength="10" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
                             </td>
                             <td>
-                                <asp:TextBox ID="txtCVG2" runat="server" class="text text-2 validate[funcCall[numValF]]" MaxLength="12" original-title="######.#### (<6 digits>.<4 digits>)" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
+                                <asp:TextBox ID="txtCVG2" runat="server" class="text text-2 textAlignRight validate[custom[money2CAN]] validate[custom[number2CAN]]" MaxLength="8" original-title="####[.]## (<6 digits> or <4 digits>.<2 digits>)" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
                             </td>
                             <td class="td-1">
                                 4
@@ -495,7 +495,7 @@
                                 <asp:TextBox ID="txtDtC4" runat="server" class="text validate[custom[date-YYYY-MM-DD]" original-title="YYYY-MM-DD" MaxLength="10" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
                             </td>
                             <td>
-                                <asp:TextBox ID="txtCVG4" runat="server" class="text text-2 validate[funcCall[numValF]]" MaxLength="12" original-title="######.#### (<6 digits>.<4 digits>)" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
+                                <asp:TextBox ID="txtCVG4" runat="server" class="text text-2 textAlignRight validate[custom[money2CAN]] validate[custom[number2CAN]]" MaxLength="8" original-title="####[.]## (<6 digits> or <4 digits>.<2 digits>)" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox>
                             </td>
                         </tr>
                     </table>

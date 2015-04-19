@@ -31,17 +31,19 @@ namespace CDPW
             if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Enter");
             try
             {
+                Helpers.HideMessages(this, false);
                 if (CDPW.DAL.Users.Check_Username(txtSignUName.Text) == true)
                 {
                     phLoginMessages.Visible = true;
                     ltrLoginMessages.Text = CDPWMessages.SAME_USERNAME;
-                    ltrLoginMessages.CssClass = "msg_box msg_info corners";
+                    //ltrLoginMessages.CssClass = "msg_box msg_info corners";
+                    
                 }
                 else if (CDPW.DAL.Users.Check_Email(txtSignEmail.Text) == true)
                 {
                     phLoginMessages.Visible = true;
                     ltrLoginMessages.Text = CDPWMessages.SAME_EMAIL;
-                    ltrLoginMessages.CssClass = "msg_box msg_info corners";
+                    //ltrLoginMessages.CssClass = "msg_box msg_info corners";
                 }
                 else
                 {
@@ -49,10 +51,16 @@ namespace CDPW
                     {
                         CDPW.DAL.Users.Add(txtSignUName.Text, txtSignEmail.Text, txtSignPasswd.Text);
 
-                        string mailBody = string.Format("Hello, <br /><br />In order to be able to acces your account at CDP, please click <a href=\"{2}{3}?ma={0}&sg={1}\">here</a>.<br /><br />Thank you.", txtSignEmail.Text, System.Guid.NewGuid(), Request.Url.GetLeftPart(UriPartial.Authority), ResolveUrl("~/cdpconfirmreg.aspx"));
+                        //string mailBody = string.Format("Hello, <br /><br />In order to be able to acces your account at CDP, please click <a href=\"{2}{3}?ma={0}&sg={1}\">here</a>.<br /><br />Thank you.", txtSignEmail.Text, System.Guid.NewGuid(), Request.Url.GetLeftPart(UriPartial.Authority), ResolveUrl("~/cdpconfirmreg.aspx"));
 
-                        // send mai message to confirm the sign-up
-                        BLL.Mail.Send(txtSignEmail.Text, null, null, "CDP - Sign-up confirm", mailBody, System.Net.Mail.MailPriority.Normal);
+                        //// send mai message to confirm the sign-up
+                        //BLL.Mail.Send(txtSignEmail.Text, null, null, "CDP - Sign-up confirm", mailBody, System.Net.Mail.MailPriority.Normal);
+
+                        String signupEmail = txtSignEmail.Text;
+                        String urlLogin = String.Format("<a href=\"{2}{3}?ma={0}&sg={1}\">here</a>", signupEmail, System.Guid.NewGuid(), Request.Url.GetLeftPart(UriPartial.Authority), ResolveUrl("~/cdpconfirmreg.aspx"));
+
+                        string emailTemplate = Template.readTemplateD("[link_login]", urlLogin, HttpContext.Current.Server.MapPath("components/signup.html"));
+                        Mail.Send(signupEmail, null, null, CDPWMessages.EMAIL_SUBJECT_SIGNUP_CONFIRM, emailTemplate, System.Net.Mail.MailPriority.Normal);
 
                         tran.Complete();
 
@@ -81,6 +89,7 @@ namespace CDPW
                 System.Data.DataSet ds = new System.Data.DataSet();
                 ds = CDPW.DAL.Users.Login_Authenticate(txtLoginName.Text, txtLoginPasswd.Text);
 
+                Helpers.HideMessages(this, false);
                 if (ds.Tables[0].Rows.Count > 0)
                 {
                     // User not activated
