@@ -2,6 +2,7 @@
 using System.Web.UI.WebControls;
 using System.Timers;
 using System.Web.UI;
+using System.Reflection;
 
 namespace CDPW.BLL
 {
@@ -50,14 +51,18 @@ namespace CDPW.BLL
             if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Exit");
         }
 
-        public static void EnDisControls( PlaceHolder pg, string css, Boolean bEn) {
+        public static void EnDisControls(PlaceHolder pg, string css, Boolean bEn)
+        {
 
             if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Enter");
             //Boolean bRet = false;
 
-            foreach (Control ct in pg.Controls) {
-                if (ct.HasControls()) {
-                    foreach (Control c in ct.Controls) {
+            foreach (Control ct in pg.Controls)
+            {
+                if (ct.HasControls())
+                {
+                    foreach (Control c in ct.Controls)
+                    {
                         if (c is TextBox)
                         {
                             ((TextBox)c).Enabled = bEn;
@@ -70,7 +75,7 @@ namespace CDPW.BLL
                         }
                     }
                 }
-                
+
             }
 
             //bRet = true; 
@@ -99,6 +104,54 @@ namespace CDPW.BLL
             //bRet = true; 
             if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Exit");
             //return bRet; 
+        }
+
+        public static void toggleMasterMessage(Page pg, Boolean messageShow, String msg = "", String cssClass = "", String msgParam = "")
+        {
+
+            //PlaceHolder phMasterMessage = (PlaceHolder)pg.Master.FindControl("phMasterMessage");
+            Panel phMasterMessage = (Panel)pg.Master.FindControl("pnlMasterMessage");
+
+            Label lblMasterMessage = (Label)pg.Master.FindControl("lblMasterMessage");
+
+            if (phMasterMessage != null)
+            {
+                phMasterMessage.Visible = messageShow;
+
+                //Get the message
+                try
+                {
+                    if (!String.IsNullOrWhiteSpace(msg))
+                    {
+                        CDPWMessages mh = new CDPWMessages();
+
+                        Type _cClass = mh.GetType(); // Type.GetType(cClass);
+                        FieldInfo myf = _cClass.GetField(msg);
+
+                        String umessage = myf.GetValue(null).ToString();
+                        if (!String.IsNullOrWhiteSpace(msgParam))
+                        {
+                            umessage = string.Format(umessage, msgParam);
+                        }
+                        lblMasterMessage.Text = umessage;
+
+                        if (!String.IsNullOrWhiteSpace(cssClass))
+                        {
+                            lblMasterMessage.CssClass = cssClass;
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    lblMasterMessage.Text = CDPWMessages.MSG_MSG;
+                    if (log.IsErrorEnabled) log.Error(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Error", ex);
+                }
+
+                if (messageShow)
+                {
+                    //pg.CssClass 
+                }
+            }
         }
 
     }

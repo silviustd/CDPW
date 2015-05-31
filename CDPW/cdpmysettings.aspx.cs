@@ -203,14 +203,12 @@ namespace CDPW
                     {
                         if (cc is TextBox)
                         {
-                            ((TextBox)cc).Enabled = false;
-                            ((TextBox)cc).CssClass = "text-1-disable";
+                            if (cc.ID.Equals("txtPwd"))
+                            {
+                                ((TextBox)cc).Enabled = false;
+                                ((TextBox)cc).CssClass = "text-1-disable";
+                            }
                         }
-                        //if (cc is DropDownList)
-                        //{
-                        //    ((DropDownList)cc).Enabled = false;
-                        //    ((DropDownList)cc).CssClass = "text-1-disable";
-                        //}
                     }
 
                 }
@@ -318,8 +316,8 @@ namespace CDPW
 
                     Boolean resSave = false;
 
-                    resSave = MSettings_Update(txtUName.Text, txtPwd.Text, txtEmail.Text, txtAEmail.Text, chkNotKeepData.Checked, chkUpdAddressCF.Checked
-                                                , ddlSal.SelectedValue, txtFName.Text, txtMName.Text, txtLName.Text, txtDOB.Text ,rblGender.SelectedValue, txtUNo.Text
+                    resSave = MSettings_Update(txtUName.Text, txtPwd.Text, txtEmail.Text, txtAEmail.Text, chkNotKeepData.Checked, chkUpdInfoCF.Checked, chkUpdAddressCF.Checked
+                                                , ddlSal.SelectedValue, txtFName.Text, txtMName.Text, txtLName.Text, txtDOB.Text, rblGender.SelectedValue, txtUNo.Text
                                                 , txtStrNo.Text, txtStrType.Text, txtStrDir.Text, txtStrName.Text, txtCity.Text, txtPCode.Text, ddlCountry.SelectedValue, ddlProv.SelectedValue
                                              );
 
@@ -338,10 +336,13 @@ namespace CDPW
         }
 
 
-        private Boolean MSettings_Update(String txtUName, String txtPwd, String txtEmail, String txtAEmail, Boolean chkNotKeepData, Boolean chkUpdAddressCF , String ddlSal_SelectedValue, String txtFName, String txtMName, String txtLName, String txtDOB ,String rblGender_SelectedValue, String txtUNo, String txtStrNo, String txtStrType, String txtStrDir, String txtStrName, String txtCity, String txtPCode, String ddlCountry_SelectedValue, String ddlProv_SelectedValue)
+        private Boolean MSettings_Update(String txtUName, String txtPwd, String txtEmail, String txtAEmail, Boolean chkNotKeepData, Boolean chkUpdInfoCF, Boolean chkUpdAddressCF, String ddlSal_SelectedValue, String txtFName, String txtMName, String txtLName, String txtDOB, String rblGender_SelectedValue, String txtUNo, String txtStrNo, String txtStrType, String txtStrDir, String txtStrName, String txtCity, String txtPCode, String ddlCountry_SelectedValue, String ddlProv_SelectedValue)
         {
             if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Enter");
+
             Boolean retCode = false;
+            String AddressToDb = String.Empty;
+
 
             SqlTransaction tran = null;
 
@@ -375,12 +376,13 @@ namespace CDPW
                         cmd.Parameters.Add("@UserEmail", SqlDbType.NVarChar, 150).Value = txtEmail;
                         cmd.Parameters.Add("@UserAltEmail", SqlDbType.NVarChar, 150).Value = txtAEmail;
                         cmd.Parameters.Add("@NotKeepData", SqlDbType.Bit).Value = chkNotKeepData;
+                        cmd.Parameters.Add("@UpdInfoCF", SqlDbType.Bit).Value = chkUpdInfoCF;
                         cmd.Parameters.Add("@UpdAddressCF", SqlDbType.Bit).Value = chkUpdAddressCF;
                         cmd.Parameters.Add("@Sal", SqlDbType.NVarChar, 6).Value = ddlSal_SelectedValue;
                         cmd.Parameters.Add("@FirstName", SqlDbType.NVarChar, 50).Value = txtFName;
                         cmd.Parameters.Add("@MiddleName", SqlDbType.NVarChar, 50).Value = txtMName;
                         cmd.Parameters.Add("@LastName", SqlDbType.NVarChar, 50).Value = txtLName;
-                        cmd.Parameters.Add("@DoB", SqlDbType.Date , 50).Value = TextUtils.ReturnToDB(txtDOB, true);
+                        cmd.Parameters.Add("@DoB", SqlDbType.Date, 50).Value = TextUtils.ReturnToDB(txtDOB, true);
                         cmd.Parameters.Add("@Gender", SqlDbType.TinyInt).Value = TextUtils.ReturnIntToDB(rblGender_SelectedValue);
 
                         cmd.Parameters.Add("@AddressId", SqlDbType.BigInt).Value = CUSettings.AddressId;
@@ -390,7 +392,59 @@ namespace CDPW
                         cmd.Parameters.Add("@StreetType", SqlDbType.NVarChar, 15).Value = txtStrType;
                         cmd.Parameters.Add("@StreetPDir", SqlDbType.NVarChar, 4).Value = txtStrDir;
                         //concat
-                        cmd.Parameters.Add("@StreetName", SqlDbType.NVarChar, 200).Value = txtStrNo + ',' + txtStrName + ' ' + txtStrType + ' ' + txtStrDir + ',' + txtUNo;
+                        AddressToDb = String.Empty;
+                        if (!String.IsNullOrWhiteSpace(txtStrNo))
+                        {
+                            AddressToDb += txtStrNo;
+                        }
+
+                        if (!String.IsNullOrWhiteSpace(txtStrName))
+                        {
+                            if (!String.IsNullOrWhiteSpace(AddressToDb))
+                            {
+                                AddressToDb += ' ' + txtStrName;
+                            }
+                            else
+                            {
+                                AddressToDb += txtStrName;
+                            }
+                        }
+
+                        if (!String.IsNullOrWhiteSpace(txtStrType))
+                        {
+                            if (!String.IsNullOrWhiteSpace(AddressToDb))
+                            {
+                                AddressToDb += ' ' + txtStrType;
+                            }
+                            else
+                            {
+                                AddressToDb += txtStrType;
+                            }
+                        }
+                        if (!String.IsNullOrWhiteSpace(txtStrDir))
+                        {
+                            if (!String.IsNullOrWhiteSpace(AddressToDb))
+                            {
+                                AddressToDb += ' ' + txtStrDir;
+                            }
+                            else
+                            {
+                                AddressToDb += txtStrDir;
+                            }
+                        }
+                        if (!String.IsNullOrWhiteSpace(txtUNo))
+                        {
+                            if (!String.IsNullOrWhiteSpace(AddressToDb))
+                            {
+                                AddressToDb += ",Apt " + txtUNo;
+                            }
+                            else
+                            {
+                                AddressToDb += txtUNo;
+                            }
+                        }
+
+                        cmd.Parameters.Add("@StreetName", SqlDbType.NVarChar, 200).Value = AddressToDb;
                         cmd.Parameters.Add("@StreetNom", SqlDbType.NVarChar, 100).Value = txtStrName;
                         cmd.Parameters.Add("@City", SqlDbType.NVarChar, 50).Value = txtCity;
                         cmd.Parameters.Add("@PCode", SqlDbType.NVarChar, 10).Value = txtPCode;
@@ -451,7 +505,7 @@ namespace CDPW
 
             if (log.IsInfoEnabled) log.Info(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name + "-" + System.Reflection.MethodBase.GetCurrentMethod().Name + " - Exit");
             return retCode;
-            
+
         }
 
 

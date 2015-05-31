@@ -61,8 +61,8 @@ namespace CDPW
                             {
                                 USPId = String.IsNullOrEmpty(dr["PersonId"].ToString()) ? 0 : (Int64)dr["PersonId"];
                                 txtFamName.Text = dr["LastName"].ToString().Trim();
-                                txtFName.Text = dr["FirstName"].ToString().Trim();
-                                txtMName.Text = dr["MiddleName"].ToString().Trim();
+                                txtFstName.Text = dr["FirstName"].ToString().Trim();
+                                txtMddleName.Text = dr["MiddleName"].ToString().Trim();
                                 if (!string.IsNullOrEmpty(dr["DateofBirth"].ToString()))
                                 {
                                     DateTime dt = DateTime.Parse(dr["DateofBirth"].ToString());
@@ -257,7 +257,7 @@ namespace CDPW
                         string dob2 = (string.IsNullOrEmpty(txtdobMonth.Text) || string.IsNullOrEmpty(txtdobDay.Text) || string.IsNullOrEmpty(txtdobYear.Text)) ? string.Empty : string.Format("{0}/{1}/{2}", txtdobMonth.Text, txtdobDay.Text, txtdobYear.Text);
 
                         // Form - add PERSON, WTripInfoUSADetailsP
-                        CDPW.DAL.FormUSA.Form_AddInfo_Person(UserID, uLogin.PId_USA, txtFamName.Text, txtFName.Text, txtMName.Text, dob2, ddlCountry.SelectedValue, ddlCountry.SelectedItem.Text, txtPasspNo.Text, txtDescrArticles1.Text, txtArticlesValue1.Text, txtDescrArticles2.Text, txtArticlesValue2.Text, txtDescrArticles3.Text, txtArticlesValue3.Text, txtDescrArticles4.Text, txtArticlesValue4.Text, txtDescrArticles5.Text, txtArticlesValue5.Text, txtDescrArticles6.Text, txtArticlesValue6.Text, TripInfo[1], TripInfo[0]);
+                        CDPW.DAL.FormUSA.Form_AddInfo_Person(UserID, uLogin.PId_USA, txtFamName.Text, txtFstName.Text, txtMddleName.Text, dob2, ddlCountry.SelectedValue, ddlCountry.SelectedItem.Text, txtPasspNo.Text, txtDescrArticles1.Text, txtArticlesValue1.Text, txtDescrArticles2.Text, txtArticlesValue2.Text, txtDescrArticles3.Text, txtArticlesValue3.Text, txtDescrArticles4.Text, txtArticlesValue4.Text, txtDescrArticles5.Text, txtArticlesValue5.Text, txtDescrArticles6.Text, txtArticlesValue6.Text, TripInfo[1], TripInfo[0]);
 
                         //phError.Visible = true;
                         //ltrError.Text = string.Format("WTripInfoUSAId - {0}, si AddressID - {1}", TripInfo[0], TripInfo[1]);

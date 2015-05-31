@@ -161,6 +161,14 @@ $(function () {
 
 $(document).ready(function () {
 
+    $("#sptranslate").bind("click", function () {
+        $('#translate').css('display', 'compact').fadeIn('fast');
+        // $('a#open-btn').css('display', 'none').fadeOut("slow");
+        // $('a#close-btn').css('display', 'compact').fadeIn("slow");
+        $('a#open-btn').addClass('color-1').fadeIn('fast');
+    });
+
+
     $(".msg_box").bind("click", function () {
         $(this).hide();
         $("#main-1").removeClass("main-1-message");
@@ -171,20 +179,8 @@ $(document).ready(function () {
     $("#DCAN").colorbox();
     $("#DUSA").colorbox();
 
-    $('#mainSettings div .gender input').attr('disabled', true);
+    //$('#mainSettings div .gender input').attr('disabled', true);
 
-    //$('.translate').click(function () {
-    $('.translate').hover(function () {
-        $('#translate').css('display', 'compact').fadeIn('fast');
-        // $('a#open-btn').css('display', 'none').fadeOut("slow");
-        // $('a#close-btn').css('display', 'compact').fadeIn("slow");
-        $('a#open-btn').addClass('color-1').fadeIn('fast');
-    },
-		function () {
-		    //$('#translate').css('display', 'none').fadeOut('4500');
-		    //$('a#open-btn').removeClass('color-1').fadeIn('fast');
-		}
-	);
     $('a#close_translate').click(function () {
         $('#translate').css('display', 'none').fadeOut('slow');
         $('a#open-btn').removeClass('color-1').fadeIn('fast');
@@ -210,7 +206,7 @@ $(document).ready(function () {
         $(this).parent().children('input#txtMName').addClass('validate[custom[onlyLetterSp]]');
         $(this).parent().children('input#txtLName').addClass('validate[custom[onlyLetterSp]]');
         $(this).parent().children('input#txtStrNo').addClass('validate[custom[pos_smallint]]');
-        $(this).parent().children('input#txtUNo').addClass('validate[custom[pos_smallint]]');
+        //$(this).parent().children('input#txtUNo').addClass('validate[custom[pos_smallint]]');
         $(this).parent().children('input#txtCity').addClass('validate[custom[onlyLetterSp]]');
         $(this).parent().children('input').attr('disabled', false);
         $(this).parent().children('select.select-1').attr('disabled', false);

@@ -50,13 +50,6 @@
                                 AutoPostBack="False" onchange="javascript:ChangeAlert();" />
                         </td>
                     </tr>
-                    <!--<tr>
-				<td class="column-1">2.</td>
-				<td><asp:Label ID="lblFName" AssociatedControlID="txtFName" runat="server" Text="First <em>(Given)</em>"></asp:Label></td>
-				<td><asp:TextBox ID="txtFName" runat="server" class="text text-2" MaxLength="22" original-title="22 characters" AutoPostBack="False" onchange="javascript:ChangeAlert();"/></td>
-				<td class="right"><asp:Label ID="lblMName" AssociatedControlID="txtMName" runat="server" Text="Middle"></asp:Label></td>
-				<td colspan="2" class="right"><asp:TextBox ID="txtMName" runat="server" class="text text-3" MaxLength="10" original-title="10 characters" AutoPostBack="False" onchange="javascript:ChangeAlert();"></asp:TextBox></td>
-			  </tr>-->
                     <tr>
                         <td colspan="6">
                             <table>
@@ -66,20 +59,20 @@
                                             2.
                                         </td>
                                         <td>
-                                            <label id="lblFName" for="txtFName">
+                                            <label id="lblFName" for="txtFstName">
                                                 First <em>(Given)</em></label>
                                         </td>
                                         <td>
-                                            <input type="text" onchange="javascript:ChangeAlert();" original-title="22 characters"
-                                                class="text text-3" id="txtFName" maxlength="22" name="ctl00$cphMain$txtFName">
+                                            <asp:TextBox ID="txtFstName" runat="server" class="text text-3" MaxLength="22" original-title="22 characters"
+                                                AutoPostBack="False" onchange="javascript:ChangeAlert();" />
                                         </td>
                                         <td class="right">
-                                            <label id="lblMName" for="txtMName">
+                                            <label id="lblMName" for="txtMddleName">
                                                 Middle</label>
                                         </td>
                                         <td class="right" colspan="2">
-                                            <input type="text" onchange="javascript:ChangeAlert();" original-title="10 characters"
-                                                class="text text-2" id="txtMName" maxlength="10" name="ctl00$cphMain$txtMName">
+                                            <asp:TextBox ID="txtMddleName" runat="server" class="text text-2" MaxLength="10" original-title="10 characters"
+                                                AutoPostBack="False" onchange="javascript:ChangeAlert();" />
                                         </td>
                                     </td>
                                 </tr>
